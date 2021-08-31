@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url(../fonts/Quicksand-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-display: swap; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6,11 +24,13 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', regular;
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch; }
 
 /* Sections
    ========================================================================== */
@@ -22,15 +42,19 @@ html {
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid gray; }
 
 ul {
   list-style: none; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  min-width: 320px;
-  color: #000; }
+  font-family: 'Roboto', regular;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #8D96BD; }
 
 a,
 button {
@@ -46,8 +70,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: inherit;
-  color: inherit;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  color: #3D4F9F;
   margin: 0;
   padding: 0; }
 
@@ -334,5 +359,11 @@ template {
  */
 [hidden] {
   display: none; }
+
+.header__logo {
+  width: 26px;
+  height: 26px;
+  background: #5E81FE;
+  border-radius: 50%; }
 
 /*# sourceMappingURL=style.min.css.map */

@@ -11,11 +11,13 @@
  */
 
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', regular;
     line-height: 1.15;
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
 }
 
 
@@ -33,7 +35,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // border: 1px solid red;
+    border: 1px solid gray;
 }
 
 ul {
@@ -41,11 +43,12 @@ ul {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    min-width: 320px;
-    // font-size: 18px;
-    // line-height: 35px;
-    color: #000;
+    font-family: 'Roboto', regular;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
 }
 
 a,
@@ -63,8 +66,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
-    color: inherit;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: #3D4F9F;
     margin: 0;
     padding: 0;
 }
