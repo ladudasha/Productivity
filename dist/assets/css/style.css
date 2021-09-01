@@ -47,6 +47,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid gray;
 }
 
 ul {
@@ -55,8 +56,11 @@ ul {
 
 body {
     font-family: 'Roboto', regular;
-    min-width: 320px;
-    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
 }
 
 a,
@@ -74,8 +78,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
-    color: inherit;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: #3D4F9F;
     margin: 0;
     padding: 0;
 }
@@ -395,4 +400,11 @@ template {
  */
 [hidden] {
     display: none;
+}
+
+.header__logo {
+    width: 26px;
+    height: 26px;
+    background: #5E81FE;
+    border-radius: 50%;
 }
