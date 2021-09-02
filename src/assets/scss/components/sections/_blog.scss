@@ -1,0 +1,26 @@
+.blog {
+    padding: 105px;
+    padding-bottom: 105px;
+    &-subtitle {
+        margin-bottom: 40px;
+    }
+    &__top {
+        margin-bottom: 92px;
+    }
+    &__grid {
+        width: 958px;
+        // height: 394px;
+        background-color: rgb(119, 95, 95);
+        margin: 0 auto;
+    }
+    &__slider {
+        height: 394px;
+    }
+    // &__indicators {
+    //     width: 8px;
+    //     height: 8px;
+    //     border-radius: 50%;
+    //     background-color: #D1D6E3;
+    //     bottom: -135px;
+    // }
+}

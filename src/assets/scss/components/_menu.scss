@@ -1,0 +1,8 @@
+.menu {
+    margin-left: 40px;
+    &-link {
+        font-family: 'Quicksand', sans-serif;
+        @include text (12px, 500, 15px, #697CA6);
+        letter-spacing: 0.05em;
+    }
+}

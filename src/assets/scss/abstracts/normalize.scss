@@ -16,6 +16,7 @@ html {
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    // новое
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -58,6 +59,13 @@ button {
     text-decoration: none;
     background-color: transparent;
     border: none;
+}
+
+// новое
+a:hover,
+a:focus {
+    color: #5E81FE;
+    text-decoration: none;
 }
 
 h1,

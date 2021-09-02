@@ -72,6 +72,12 @@ button {
     border: none;
 }
 
+a:hover,
+a:focus {
+    color: #5E81FE;
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -407,4 +413,44 @@ template {
     height: 26px;
     background: #5E81FE;
     border-radius: 50%;
+}
+
+.header__btn {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3A79FF;
+    background-color: #D2E1FF;
+    border-radius: 2px;
+    width: 113px;
+    height: 43px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.menu-link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #697CA6;
+    letter-spacing: 0.05em;
+}
+
+.customers-wrapper {
+    min-height: 145px;
+}
+
+.customers-wrapper {
+    min-height: 145px;
+}
+
+.carousel-inner {
+    width: 60%;
+    margin: 0 auto;
 }
