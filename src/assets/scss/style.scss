@@ -1,16 +1,14 @@
-                @import './abstracts/fonts';
-                @import "./abstracts/normalize.scss";
-                @import './abstracts/mixins';
-                @import './components/sections/header';
-                @import './components/menu';
-                @import './components/sections/customers';
-                @import './components/sections/features';
-                @import './components/sections/customers';
-                @import './components/sections/blog';
-                .carousel-indicators li {
-                    width: 8px;
-                    height: 8px;
-                    border-radius: 50%;
-                    background-color: #D1D6E3;
-                    bottom: -135px;
-                }
+@import './abstracts/fonts';
+@import "./abstracts/normalize.scss";
+@import './abstracts/mixins';
+@import './components/sections/header';
+@import './components/menu';
+@import './components/sections/customers';
+@import './components/sections/features';
+@import './components/sections/customers';
+@import './components/sections/blog';
+.carousel-indicators li {
+    // bottom: -135px;
+}
+
+.carousel-indicators {}

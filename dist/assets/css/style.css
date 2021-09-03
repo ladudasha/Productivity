@@ -450,7 +450,62 @@ template {
     min-height: 145px;
 }
 
-.carousel-inner {
-    width: 60%;
+.blog {
+    padding: 105px;
+    padding-bottom: 105px;
+}
+
+.blog-subtitle {
+    margin-bottom: 40px;
+}
+
+.blog__top {
+    margin-bottom: 92px;
+}
+
+.blog__grid {
+    width: 958px;
+    background-color: #775f5f;
     margin: 0 auto;
+}
+
+.blog__slider {
+    height: 394px;
+}
+
+.blog__indicators {
+    bottom: -135px;
+}
+
+.blog__row-icon {
+    background-image: url(./../images/blog/left.svg);
+    width: 27px;
+    height: 19px;
+}
+
+.blog__row-icon--right {
+    background-image: url(./../images/blog/right.svg);
+    width: 27px;
+    height: 19px;
+}
+
+.blog__row {
+    left: -70px;
+}
+
+.blog__row--right {
+    right: -70px;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D1D6E3;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.carousel-indicators {
+    bottom: -135px;
 }

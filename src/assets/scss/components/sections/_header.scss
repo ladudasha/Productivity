@@ -1,4 +1,8 @@
 .header {
+    &__container {
+        max-width: 1255px !important;
+        padding-top: 10px;
+    }
     &__logo {
         width: 26px;
         height: 26px;
@@ -13,6 +17,6 @@
         width: 113px;
         height: 43px;
         text-align: center;
-        margin-left: 45px;
+        margin-left: 10px;
     }
 }
