@@ -23,5 +23,11 @@
             margin-right: 0;
         }
     }
-    &__ icon {}
+    &__icon-box {
+        border-radius: 50%;
+        background: #F1F5FF;
+        width: 69px;
+        height: 69px;
+        margin: 0 auto;
+    }
 }
