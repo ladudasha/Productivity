@@ -402,6 +402,33 @@ template {
 .customers-wrapper {
   min-height: 145px; }
 
+.features {
+  padding-top: 141px;
+  padding-bottom: 171px; }
+  .features__subtitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #3D4F9F;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px; }
+  .features__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3D4F9F;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 92px; }
+  .features__content {
+    margin-bottom: 92px; }
+  .features__col {
+    max-width: 140px;
+    margin-right: 67px; }
+    .features__col:last-child {
+      margin-right: 0; }
+
 .customers-wrapper {
   min-height: 145px; }
 
@@ -501,5 +528,66 @@ template {
     background-color: #D1D6E3;
     margin-right: 5px;
     margin-left: 5px; }
+
+.plan {
+  padding-top: 208px;
+  padding-bottom: 216px;
+  background-color: #F5F8FF; }
+  .plan__title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #3D4F9F;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 27px; }
+  .plan__span {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #3D4F9F; }
+  .plan__subtitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #3D4F9F;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 27px; }
+  .plan__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8D96BD;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 47px; }
+  .plan__btn {
+    width: 130px;
+    height: 43px;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2px; }
+    .plan__btn--blue {
+      font-weight: 700; }
+    .plan__btn--light {
+      font-weight: 500;
+      color: #ADB4D2;
+      border: 1px solid #AEAEBF; }
+  .plan__gallery {
+    position: relative; }
+  .plan__img {
+    position: absolute;
+    top: -235px;
+    left: -97px; }
+    .plan__img--medium {
+      position: absolute;
+      top: -50px;
+      right: -140px; }
+    .plan__img--small {
+      position: absolute;
+      top: -103px;
+      left: 55px; }
 
 /*# sourceMappingURL=style.min.css.map */

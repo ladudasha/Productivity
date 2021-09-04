@@ -16,11 +16,11 @@
 <body>
 
 
-
+    <!-- header -->
 
     <header class="header">
         <div class="header__container container">
-            <!-- header2 -->
+
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand" href="#">
                     <div class="header__logo"></div>
@@ -81,8 +81,47 @@
             </div>
     </header>
 
+    <!-- plan -->
+
+    <section class="plan">
+        <div class="container">
+
+            <div class="row  align-items-center offset-1">
+
+                <div class="plan__content col-5 ">
+                    <h3 class="plan__subtitle">DESKTOP AND MOBILE APP</h3>
+                    <h2 class="plan__title">Plan <span class="plan__span">and</span> manage</h2>
+                    <p class="plan__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
+                    <div class="btn-group" role="group" aria-label="">
+                        <button class="plan__btn plan__btn--blue btn btn-primary text-center" plan__btn type="button">View video</button>
+                        <button class="plan__btn plan__btn--light btn btn-light text-center" type="button">See features</button>
+
+                    </div>
+                </div>
+
+                <div class="plan__gallery col-6">
+
+                    <img class="plan__img" src="./assets/images/plan/big.png" alt="">
+                    <img class="plan__img--medium" src="./assets/images/plan/s.png" alt="">
+                    <img class="plan__img--small" src="./assets/images/plan/xs.png" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
+
+
+
+
+
+
+
+    <!-- customers -->
     <section class="customers">
         <div class="container">
             <div class=" customers-wrapper row align-items-center justify-content-center justify-content-lg-between">
@@ -116,46 +155,47 @@
     </section>
 
 
+    <!-- features -->
 
     <section class="features">
-        <div class="container text-center bg-light">
+        <div class="container text-center">
 
-            <div class="row ">
+            <div class="row">
                 <div class="col">
-                    <h2>ABOUT US</h2>
-                    <span>Read about our app</span>
+                    <h5 class="features__subtitle">ABOUT US</h5>
+                    <h2 class="features__title">Read about our app</h2>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="features__content row justify-content-center align-items-start">
 
-                <div class="col-lg-2">
-                    <div class="img-shape rounded-circle">
-                        <img src="./assets/images/features/home.svg" alt="home">
+                <div class="features__col col col-lg-2 ">
+                    <div class="features__ icon-box ">
+                        <img class="features__ icon" src="./assets/images/features/home.svg" alt="home">
                     </div>
                     <h3>Overview</h3>
                     <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
                 </div>
 
-                <div class="col col-lg-2">
-                    <div class="">
-                        <img src="./assets/images/features/order.svg" alt="order">
+                <div class="features__col col col-lg-2">
+                    <div class="features__ icon-box">
+                        <img class="features__ icon" src="./assets/images/features/order.svg" alt="order">
                     </div>
                     <h3>Files</h3>
                     <p>No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
                 </div>
 
-                <div class="col col-lg-2">
-                    <div class="">
-                        <img src="./assets/images/features/chats.svg" alt="chats">
+                <div class="features__col col col-lg-2">
+                    <div class="features__ icon-box">
+                        <img class="features__ icon" src="./assets/images/features/chats.svg" alt="chats">
                     </div>
                     <h3>Meeting chats</h3>
                     <p>Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
                 </div>
 
-                <div class="col col-lg-2">
-                    <div class="">
-                        <img src="./assets/images/features/save.svg" alt="save">
+                <div class="features__col col col-lg-2">
+                    <div class="features__ icon-box">
+                        <img class="features__ icon" src="./assets/images/features/save.svg" alt="save">
                     </div>
                     <h3>Save events</h3>
                     <p>Nisl idque mel ea, nominati voluptatum.</p>
@@ -174,111 +214,113 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <section class="blog">
-            <div class="container">
-                <div class=" blog__top row justify-content-center align-items-center">
-                    <div class="col-auto d-flex flex-column justify-content-center align-items-center">
-                        <h3 class="blog__subtitle">OUR RESOURCES</h3>
-                        <h2 class="blog__title">Start reading our blog</h2>
+    <!-- blog -->
+    <section class="blog">
+        <div class="container">
+            <div class=" blog__top row justify-content-center align-items-center">
+                <div class="col-auto d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="blog__subtitle">OUR RESOURCES</h3>
+                    <h2 class="blog__title">Start reading our blog</h2>
+                </div>
+            </div>
+
+
+
+
+
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="blog__carousel carousel-indicators ">
+                    <li class="blog__indicators active" data-bs-target="#carouselId" data-bs-slide-to="0"></li>
+                    <li class="blog__indicators" data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li class="blog__indicators" data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+
+                        <div class="blog__grid ">
+
+                            <div class="blog-galerry d-flex">
+                                <div class="blog-pic">
+                                    <img class="blog-img blog-img--big " src="./assets/images/blog/big.png" alt="">
+                                </div>
+
+                                <div class="blog-images d-flex flex-column justify-content-between">
+                                    <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-1.png" alt="">
+                                    <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-2.png" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="blog-content">
+                                <h2 class="blog-heading">How to start planning</h2>
+                                <p class="blog-text ">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at,
+                                    eos ut decore ...
+                                </p>
+
+                                <div class="btn-group" role="group" aria-label="">
+                                    <button type="button" class="blog-btn blog-btn--blue btn btn-primary">Read now</button>
+                                    <button type="button" class="blog-btn blog-btn--white btn ">Add to your bookmarks</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="blog__grid ">
+
+                            <div class="blog-galerry d-flex">
+                                <div class="blog-pic">
+                                    <img class="blog-img blog-img--big " src="./assets/images/blog/big.png" alt="">
+                                </div>
+
+                                <div class="blog-images d-flex flex-column justify-content-between">
+                                    <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-1.png" alt="">
+                                    <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-2.png" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="blog-content">
+                                <h2 class="blog-heading">How to start planning</h2>
+                                <p class="blog-text ">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at,
+                                    eos ut decore ...
+                                </p>
+
+                                <div class="btn-group" role="group" aria-label="">
+                                    <button type="button" class="blog-btn blog-btn--blue btn btn-primary">Read now</button>
+                                    <button type="button" class="blog-btn blog-btn--white btn ">Add to your bookmarks</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="holder.js/900x500/auto/#666:#444/text:Third slide " alt="Third slide ">
                     </div>
                 </div>
-
-
-
-
-
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="blog__carousel carousel-indicators ">
-                        <li class="blog__indicators active" data-bs-target="#carouselId" data-bs-slide-to="0"></li>
-                        <li class="blog__indicators" data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-                        <li class="blog__indicators" data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-
-                        <div class="carousel-item active">
-
-                            <div class="blog__grid ">
-
-                                <div class="blog-galerry d-flex">
-                                    <div class="blog-pic">
-                                        <img class="blog-img blog-img--big " src="./assets/images/blog/big.png" alt="">
-                                    </div>
-
-                                    <div class="blog-images d-flex flex-column justify-content-between">
-                                        <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-1.png" alt="">
-                                        <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-2.png" alt="">
-                                    </div>
-
-                                </div>
-
-                                <div class="blog-content">
-                                    <h2 class="blog-heading">How to start planning</h2>
-                                    <p class="blog-text ">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro
-                                        at, eos ut decore ...
-                                    </p>
-
-                                    <div class="btn-group" role="group" aria-label="">
-                                        <button type="button" class="blog-btn blog-btn--blue btn btn-primary">Read now</button>
-                                        <button type="button" class="blog-btn blog-btn--white btn ">Add to your bookmarks</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-
-                            <div class="blog__grid ">
-
-                                <div class="blog-galerry d-flex">
-                                    <div class="blog-pic">
-                                        <img class="blog-img blog-img--big " src="./assets/images/blog/big.png" alt="">
-                                    </div>
-
-                                    <div class="blog-images d-flex flex-column justify-content-between">
-                                        <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-1.png" alt="">
-                                        <img class="blog-img blog-img--sm" src="./assets/images/blog/sm-2.png" alt="">
-                                    </div>
-
-                                </div>
-
-                                <div class="blog-content">
-                                    <h2 class="blog-heading">How to start planning</h2>
-                                    <p class="blog-text ">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro
-                                        at, eos ut decore ...
-                                    </p>
-
-                                    <div class="btn-group" role="group" aria-label="">
-                                        <button type="button" class="blog-btn blog-btn--blue btn btn-primary">Read now</button>
-                                        <button type="button" class="blog-btn blog-btn--white btn ">Add to your bookmarks</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <img src="holder.js/900x500/auto/#666:#444/text:Third slide " alt="Third slide ">
-                        </div>
-                    </div>
-                    <button class="blog__row carousel-control-prev " type="button " data-bs-target="#carouselId " data-bs-slide="prev ">
+                <button class="blog__row carousel-control-prev " type="button " data-bs-target="#carouselId " data-bs-slide="prev ">
         <span class="blog__row-icon carousel-control-prev-icon " aria-hidden="true "></span>
         <!-- <span class="visually-hidden ">Previous</span> -->
     </button>
-                    <button class="blog__row--right carousel-control-next " type="button " data-bs-target="#carouselId " data-bs-slide="next ">
+                <button class="blog__row--right carousel-control-next " type="button " data-bs-target="#carouselId " data-bs-slide="next ">
         <span class="blog__row-icon--right carousel-control-next-icon " aria-hidden="true "></span>
         <!-- <span class="visually-hidden ">Next</span> -->
       </button>
-                </div>
-
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
-        <script src="assets/js/script.js "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+    <script src="assets/js/script.js "></script>
 </body>
 
 </html>

@@ -1,0 +1,27 @@
+.features {
+    padding-top: 141px;
+    padding-bottom: 171px;
+    &__subtitle {
+        @include text (10px, 500, 12px, #3D4F9F);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    }
+    &__title {
+        @include text (24px, 500, 30px, #3D4F9F);
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 92px;
+    }
+    &__content {
+        margin-bottom: 92px;
+    }
+    &__col {
+        max-width: 140px;
+        margin-right: 67px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__ icon {}
+}
