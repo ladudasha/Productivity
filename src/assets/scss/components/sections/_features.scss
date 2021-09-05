@@ -30,4 +30,63 @@
         height: 69px;
         margin: 0 auto;
     }
+    &__description {
+        font-family: 'Open Sans', sans-serif;
+        @include text (14px, 700, 25px, #4074F8);
+        margin-top: 33px;
+        margin-bottom: 25px;
+    }
+    &__text {
+        font-family: 'Open Sans', sans-serif;
+        @include text (11px, 600, 19px, #ADB3CB);
+        max-width: 140px;
+    }
+    &__btn-group {
+        font-family: 'Open Sans', sans-serif;
+        @include text (11px, 600, 19px, #ADB3CB);
+    }
+    &__btn {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16px;
+        border-radius: 2px;
+        border: none;
+        width: 113px;
+        height: 43px;
+        text-align: center;
+        &--red {
+            background-color: #FFD7D7;
+            color: #D43F3F;
+        }
+        &--blue {
+            background-color: #D2E1FF;
+            color: #3A79FF;
+        }
+    }
+    &__choice {
+        margin: 0 47px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 1px;
+            left: 30px;
+            top: 9px;
+            border: 1px solid #DAE4FE;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 1px;
+            right: 30px;
+            top: 9px;
+            border: 1px solid #DAE4FE;
+        }
+    }
 }
+
+
+/* Line 2.1 */
