@@ -1,0 +1,9 @@
+.newsletter {
+    padding-top: 118px;
+    padding-bottom: 119px;
+    &__title {
+        @include text (18px, 700, 22px, #3D4F9F);
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 18px;
+    }
+}

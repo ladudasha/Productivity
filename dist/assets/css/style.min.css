@@ -710,4 +710,15 @@ template {
       color: #C7D3FF;
       font-family: 'Quicksand', sans-serif; }
 
+.newsletter {
+  padding-top: 118px;
+  padding-bottom: 119px; }
+  .newsletter__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #3D4F9F;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 18px; }
+
 /*# sourceMappingURL=style.min.css.map */
