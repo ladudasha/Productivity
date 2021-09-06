@@ -1,1 +1,15 @@
-.footer {}
+.footer {
+    padding-top: 93px;
+    padding-bottom: 93px;
+    &__container {
+        max-width: 1255px !important;
+    }
+    &__row {
+        @include text (12px, 500, 15px, #AEB8D0);
+        font-family: 'Quicksand';
+        letter-spacing: 0.05em;
+        // text-transform: capitalize;
+        margin-top: 28px;
+        margin-left: 115px;
+    }
+}
