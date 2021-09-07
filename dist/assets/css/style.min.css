@@ -687,7 +687,7 @@ template {
     letter-spacing: 0.03em;
     width: 712px;
     text-align: center;
-    margin: 0 auto 28px; }
+    margin-bottom: 28px; }
   .started__btn {
     height: 43px;
     border-radius: 2px;
@@ -771,10 +771,110 @@ template {
 
 .stats {
   padding-top: 66px;
-  padding-bottom: 66px;
-  background-color: hotpink; }
+  padding-bottom: 44px; }
+  .stats__col {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+    .stats__col--left {
+      padding-right: 90px;
+      background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+      color: white; }
+    .stats__col--right {
+      padding-left: 90px;
+      background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+      color: #5E80FF; }
   .stats__icon {
-    width: 71px;
-    height: 62px; }
+    margin-bottom: 24px; }
+    .stats__icon--left {
+      width: 65px;
+      height: 66px; }
+    .stats__icon--right {
+      width: 71px;
+      height: 62px; }
+  .stats__title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Quicksand';
+    letter-spacing: 0.03em;
+    margin-bottom: 10px; }
+    .stats__title--left {
+      color: white; }
+    .stats__title--right {
+      color: #5E80FF; }
+  .stats__text {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    letter-spacing: 0.03em;
+    max-width: 260px; }
+    .stats__text--left {
+      color: white; }
+    .stats__text--right {
+      color: #5E80FF; }
+
+/* Users who have used our application */
+.quotes {
+  padding-top: 109px;
+  padding-bottom: 108px;
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%); }
+  .quotes__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #3D4F9F;
+    letter-spacing: 0.1em;
+    margin-bottom: 31px; }
+  .quotes__title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #3D4F9F;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 14px; }
+  .quotes__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #A4ABC8;
+    letter-spacing: 0.03em;
+    max-width: 323px; }
+  .quotes__indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0540d4;
+    margin-right: 5px;
+    margin-left: 5px; }
+  .quotes__indicators {
+    position: absolute;
+    bottom: -116px;
+    left: -118px; }
+  .quotes__wrapper {
+    width: 423px;
+    height: 175px;
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    position: relative; }
+  .quotes__review {
+    max-width: 283px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #676F95;
+    letter-spacing: 0.03em;
+    margin-top: 41px;
+    margin-left: 69px; }
+  .quotes__img {
+    width: 62px;
+    height: 62px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50%;
+    position: absolute;
+    bottom: -46px;
+    left: 173px;
+    z-index: 1; }
 
 /*# sourceMappingURL=style.min.css.map */

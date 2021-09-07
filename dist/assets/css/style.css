@@ -941,3 +941,84 @@ template {
 .footer__container {
     max-width: 1255px !important;
 }
+
+.footer__row {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #AEB8D0;
+    font-family: 'Quicksand';
+    letter-spacing: 0.05em;
+    margin-top: 28px;
+    margin-left: 115px;
+}
+
+.stats {
+    padding-top: 66px;
+    padding-bottom: 44px;
+}
+
+.stats__col {
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.stats__col--left {
+    padding-right: 90px;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    color: white;
+}
+
+.stats__col--right {
+    padding-left: 90px;
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    color: #5E80FF;
+}
+
+.stats__icon {
+    margin-bottom: 24px;
+}
+
+.stats__icon--left {
+    width: 65px;
+    height: 66px;
+}
+
+.stats__icon--right {
+    width: 71px;
+    height: 62px;
+}
+
+.stats__title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Quicksand';
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.stats__title--left {
+    color: white;
+}
+
+.stats__title--right {
+    color: #5E80FF;
+}
+
+.stats__text {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    letter-spacing: 0.03em;
+    max-width: 260px;
+}
+
+.stats__text--left {
+    color: white;
+}
+
+.stats__text--right {
+    color: #5E80FF;
+}
+
+/* Users who have used our application */

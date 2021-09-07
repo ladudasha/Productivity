@@ -1,9 +1,59 @@
 .stats {
     padding-top: 66px;
-    padding-bottom: 66px;
-    background-color: hotpink;
+    padding-bottom: 44px;
+    &__col {
+        padding-top: 66px;
+        padding-bottom: 66px;
+        &--left {
+            padding-right: 90px;
+            background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+            color: white;
+        }
+        &--right {
+            padding-left: 90px;
+            background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+            color: #5E80FF;
+        }
+    }
     &__icon {
-        width: 71px;
-        height: 62px
+        margin-bottom: 24px;
+        &--left {
+            width: 65px;
+            height: 66px;
+        }
+        &--right {
+            width: 71px;
+            height: 62px;
+        }
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 400;
+        // @include text (48px, 400, 83px, #AEB8D0);
+        font-family: 'Quicksand';
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+        &--left {
+            color: white;
+        }
+        &--right {
+            color: #5E80FF;
+        }
+    }
+    &__text {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Quicksand';
+        letter-spacing: 0.03em;
+        max-width: 260px;
+        &--left {
+            color: white;
+        }
+        &--right {
+            color: #5E80FF;
+        }
     }
 }
+
+
+/* Users who have used our application */
