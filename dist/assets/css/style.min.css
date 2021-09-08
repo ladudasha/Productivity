@@ -815,7 +815,7 @@ template {
 /* Users who have used our application */
 .quotes {
   padding-top: 109px;
-  padding-bottom: 108px;
+  padding-bottom: 204px;
   background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%); }
   .quotes__subtitle {
     font-family: 'Roboto', sans-serif;
@@ -844,9 +844,9 @@ template {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #0540d4;
-    margin-right: 5px;
-    margin-left: 5px; }
+    background-color: #D1D6E3;
+    margin-right: 8px;
+    margin-left: 8px; }
   .quotes__indicators {
     position: absolute;
     bottom: -116px;
@@ -876,5 +876,40 @@ template {
     bottom: -46px;
     left: 173px;
     z-index: 1; }
+
+.faq {
+  padding: 176px 355px 174px 355px; }
+  .faq__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #3D4F9F;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .faq__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3D4F9F;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 68px; }
+  .faq__btn {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #8E96B7;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.03em; }
+  .faq__card {
+    border-bottom: 3px solid #D8E3FE;
+    margin-bottom: 17px;
+    width: 730px;
+    height: 60px; }
+  .faq__card-header {
+    background-color: white; }
+  .faq__wrapper {
+    max-width: 730px; }
 
 /*# sourceMappingURL=style.min.css.map */
