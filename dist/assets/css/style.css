@@ -1129,24 +1129,66 @@ template {
 }
 
 .faq__btn {
-    width: 463px;
-    height: 45px;
     font-size: 15px;
     font-weight: 500;
     line-height: 19px;
     color: #8E96B7;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.03em;
+    position: relative;
+}
+
+.faq__btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./../images/faq/Vector.svg);
+    left: -31px;
+    bottom: 10px;
+    width: 16px;
+    height: 13px;
+}
+
+.faq__card {
+    border-bottom: 3px solid #D8E3FE;
+    margin-bottom: 17px;
+    width: 730px;
+    height: 60px;
 }
 
 .faq__card-header {
-    background-color: #fff;
-    border: none !important;
-    border-bottom: 1px solid #D8E3FE;
-    margin-bottom: 16px !important;
-    height: 60px;
+    background-color: white;
 }
 
 .faq__wrapper {
     max-width: 730px;
+}
+
+.faq__btn-body {
+    background-color: #E8ECF4;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #7382A3;
+    font-family: 'Quicksand', sans-serif;
+    width: 195px;
+    height: 43px;
+}
+
+.faq__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #8D96BD;
+    max-width: 391px;
+    letter-spacing: 0.03em;
+    margin-right: 62px;
+}
+
+.faq__card-body {
+    padding: 7px 0 53px 43px;
 }

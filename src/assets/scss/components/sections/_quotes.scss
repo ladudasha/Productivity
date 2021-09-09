@@ -1,6 +1,6 @@
 .quotes {
     padding-top: 109px;
-    padding-bottom: 204px;
+    padding-bottom: 145px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
     &__subtitle {
         font-family: 'Roboto', sans-serif;
@@ -30,8 +30,11 @@
     &__indicators {
         // bottom: -125px;
         position: absolute;
-        bottom: -116px;
+        bottom: -62px;
         left: -118px;
+    }
+    &__carousel-inner {
+        height: 230px;
     }
     &__wrapper {
         width: 423px;
