@@ -28,7 +28,10 @@
         font-family: 'Quicksand', sans-serif;
         letter-spacing: 0.03em;
         position: relative;
-        width: 100%;
+        // width: 100%;
+        margin-left: 20px;
+        text-decoration: none;
+        box-shadow: none !important;
     }
     &__btn::before {
         @include pseudo ();

@@ -581,7 +581,7 @@ template {
 .blog {
     background: #F5F8FF;
     padding: 105px;
-    padding-bottom: 105px;
+    padding-bottom: 210px;
 }
 
 .blog-subtitle {
@@ -953,14 +953,9 @@ template {
     margin-left: 115px;
 }
 
-.stats {
-    padding-top: 66px;
-    padding-bottom: 44px;
-}
-
 .stats__col {
     padding-top: 66px;
-    padding-bottom: 66px;
+    padding-bottom: 44px;
 }
 
 .stats__col--left {
@@ -1024,8 +1019,12 @@ template {
 /* Users who have used our application */
 .quotes {
     padding-top: 109px;
-    padding-bottom: 204px;
+    padding-bottom: 145px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+
+.quotes__row {
+    width: 888px;
 }
 
 .quotes__subtitle {
@@ -1068,8 +1067,12 @@ template {
 
 .quotes__indicators {
     position: absolute;
-    bottom: -116px;
+    bottom: -62px;
     left: -118px;
+}
+
+.quotes__carousel-inner {
+    height: 230px;
 }
 
 .quotes__wrapper {
@@ -1105,7 +1108,12 @@ template {
 }
 
 .faq {
-    padding: 176px 355px 174px 355px;
+    padding-top: 176px;
+    padding-bottom: 160px;
+}
+
+.faq__accordion {
+    max-width: 730px;
 }
 
 .faq__subtitle {
@@ -1128,6 +1136,11 @@ template {
     margin-bottom: 68px;
 }
 
+.faq__card-header {
+    background-color: white;
+    height: 70px;
+}
+
 .faq__btn {
     font-size: 15px;
     font-weight: 500;
@@ -1136,6 +1149,8 @@ template {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.03em;
     position: relative;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .faq__btn::before {
@@ -1148,23 +1163,12 @@ template {
     background-image: url(./../images/faq/Vector.svg);
     left: -31px;
     bottom: 10px;
-    width: 16px;
-    height: 13px;
+    width: 40px;
+    height: 11px;
 }
 
-.faq__card {
-    border-bottom: 3px solid #D8E3FE;
-    margin-bottom: 17px;
-    width: 730px;
-    height: 60px;
-}
-
-.faq__card-header {
-    background-color: white;
-}
-
-.faq__wrapper {
-    max-width: 730px;
+.faq__card-body {
+    padding: 0px 0 50px 50px;
 }
 
 .faq__btn-body {
@@ -1187,8 +1191,4 @@ template {
     max-width: 391px;
     letter-spacing: 0.03em;
     margin-right: 62px;
-}
-
-.faq__card-body {
-    padding: 7px 0 53px 43px;
 }
