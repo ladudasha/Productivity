@@ -1,6 +1,14 @@
 .diagram {
     padding-top: 37px;
     background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    &__indicators li {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #D1D6E3;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
     &__item {
         padding-top: 65px;
         height: 540px;
