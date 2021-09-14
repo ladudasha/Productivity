@@ -438,6 +438,15 @@ template {
     background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
 }
 
+.diagram__indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D1D6E3;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .diagram__item {
     padding-top: 65px;
     height: 540px;
@@ -496,7 +505,7 @@ template {
 }
 
 .features {
-    padding-top: 141px;
+    padding-top: 180px;
     padding-bottom: 171px;
 }
 

@@ -1,6 +1,6 @@
 .faq {
     padding-top: 176px;
-    padding-bottom: 160px;
+    padding-bottom: 155px;
     &__wrapper {
         // max-width: 730px;
     }
@@ -33,14 +33,20 @@
         text-decoration: none;
         box-shadow: none !important;
     }
-    &__btn::before {
-        @include pseudo ();
-        @include background ();
-        background-image: url(./../images/faq/Vector.svg);
-        left: -31px;
-        bottom: 10px;
-        width: 40px;
-        height: 11px;
+    &__btn {
+        &::before {
+            @include pseudo ();
+            @include background ();
+            background-image: url(./../images/faq/Vector.svg);
+            transform: rotate(180deg);
+            left: -31px;
+            bottom: 10px;
+            width: 40px;
+            height: 11px;
+        }
+        &.collapsed::before {
+            transform: rotate(0);
+        }
     }
     &__card-body {
         padding: 0px 0 50px 50px;

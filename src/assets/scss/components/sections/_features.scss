@@ -1,6 +1,6 @@
 .features {
     padding-top: 180px;
-    padding-bottom: 171px;
+    padding-bottom: 183px;
     &__subtitle {
         @include text (10px, 500, 12px, #3D4F9F);
         letter-spacing: 0.1em;
@@ -17,11 +17,7 @@
         margin-bottom: 92px;
     }
     &__col {
-        max-width: 140px;
-        margin-right: 67px;
-        &:last-child {
-            margin-right: 0;
-        }
+        margin-left: 18px;
     }
     &__icon-box {
         border-radius: 50%;
@@ -39,7 +35,7 @@
     &__text {
         font-family: 'Open Sans', sans-serif;
         @include text (11px, 600, 19px, #ADB3CB);
-        max-width: 140px;
+        max-width: 145px;
     }
     &__btn-group {
         font-family: 'Open Sans', sans-serif;

@@ -1,7 +1,7 @@
 .blog {
     background: #F5F8FF;
     padding: 105px;
-    padding-bottom: 210px;
+    padding-bottom: 203px;
     &-subtitle {
         margin-bottom: 40px;
     }
@@ -26,15 +26,10 @@
         width: 100%;
         background-color: white;
         border: 1px solid #D8E3FE;
-        // height: 394px;
-        // background-color: rgb(119, 95, 95);
         margin: 0 auto;
     }
     &__slider {
         height: 394px;
-    }
-    &__indicators {
-        bottom: -135px;
     }
     &__row-icon {
         background-image: url(./../images/blog/left.svg);
@@ -64,10 +59,13 @@
         width: 127px;
         height: 126px;
     }
+    &-img--sm:first-child {
+        margin-bottom: 14px;
+    }
     &-pic {
         margin-right: 13px;
     }
-    &-heading {
+    &__heading {
         @include text (36px, 400, 45px, #3D4F9F);
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 32px;
@@ -96,7 +94,7 @@
         }
     }
     &__carousel {
-        bottom: -135px;
+        bottom: -122px;
     }
     &__carousel li {
         width: 8px;
