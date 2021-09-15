@@ -433,6 +433,14 @@ template {
     margin-left: 10px;
 }
 
+.header__icon {
+    fill: #B6BAC7;
+}
+
+.header__icon:hover {
+    fill: #3A79FF;
+}
+
 .diagram {
     padding-top: 37px;
     background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
@@ -506,7 +514,7 @@ template {
 
 .features {
     padding-top: 180px;
-    padding-bottom: 171px;
+    padding-bottom: 183px;
 }
 
 .features__subtitle {
@@ -534,12 +542,7 @@ template {
 }
 
 .features__col {
-    max-width: 140px;
-    margin-right: 67px;
-}
-
-.features__col:last-child {
-    margin-right: 0;
+    margin-left: 18px;
 }
 
 .features__icon-box {
@@ -566,7 +569,7 @@ template {
     font-weight: 600;
     line-height: 19px;
     color: #ADB3CB;
-    max-width: 140px;
+    max-width: 145px;
 }
 
 .features__btn-group {
@@ -631,7 +634,7 @@ template {
 .blog {
     background: #F5F8FF;
     padding: 105px;
-    padding-bottom: 210px;
+    padding-bottom: 203px;
 }
 
 .blog-subtitle {
@@ -675,10 +678,6 @@ template {
     height: 394px;
 }
 
-.blog__indicators {
-    bottom: -135px;
-}
-
 .blog__row-icon {
     background-image: url(./../images/blog/left.svg);
     width: 27px;
@@ -715,11 +714,15 @@ template {
     height: 126px;
 }
 
+.blog-img--sm:first-child {
+    margin-bottom: 14px;
+}
+
 .blog-pic {
     margin-right: 13px;
 }
 
-.blog-heading {
+.blog__heading {
     font-size: 36px;
     font-weight: 400;
     line-height: 45px;
@@ -759,7 +762,7 @@ template {
 }
 
 .blog__carousel {
-    bottom: -135px;
+    bottom: -122px;
 }
 
 .blog__carousel li {
@@ -857,7 +860,7 @@ template {
 
 .started {
     padding-top: 92px;
-    padding-bottom: 92px;
+    padding-bottom: 110px;
     background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
 }
 
@@ -929,7 +932,7 @@ template {
 }
 
 .newsletter {
-    padding-top: 130px;
+    padding-top: 120px;
     padding-bottom: 119px;
     border-bottom: 1px solid #D8E3FE;
 }
@@ -984,7 +987,7 @@ template {
 }
 
 .footer {
-    padding-top: 93px;
+    padding-top: 80px;
     padding-bottom: 93px;
 }
 
@@ -1069,12 +1072,8 @@ template {
 /* Users who have used our application */
 .quotes {
     padding-top: 109px;
-    padding-bottom: 145px;
+    padding-bottom: 138px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
-}
-
-.quotes__row {
-    width: 888px;
 }
 
 .quotes__subtitle {
@@ -1117,8 +1116,8 @@ template {
 
 .quotes__indicators {
     position: absolute;
-    bottom: -62px;
-    left: -118px;
+    bottom: -55px;
+    left: 31px;
 }
 
 .quotes__carousel-inner {
@@ -1159,7 +1158,7 @@ template {
 
 .faq {
     padding-top: 176px;
-    padding-bottom: 160px;
+    padding-bottom: 155px;
 }
 
 .faq__accordion {
@@ -1212,10 +1211,17 @@ template {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(./../images/faq/Vector.svg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
     left: -31px;
     bottom: 10px;
     width: 40px;
     height: 11px;
+}
+
+.faq__btn.collapsed::before {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
 }
 
 .faq__card-body {

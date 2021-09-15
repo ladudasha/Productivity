@@ -388,7 +388,9 @@ template {
   margin-left: 10px; }
 
 .header__icon {
-  fill: #B6BAC7; }
+  fill: #B6BAC7;
+  width: 8px;
+  height: 17px; }
 
 .header__icon:hover {
   fill: #3A79FF; }
