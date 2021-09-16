@@ -2,4 +2,12 @@
     &-wrapper {
         min-height: 145px;
     }
+    &__company-item {
+        width: 116px;
+        height: 29px;
+        fill: #B6BAC7;
+    }
+    &__company-item:hover {
+        fill: #3A79FF;
+    }
 }

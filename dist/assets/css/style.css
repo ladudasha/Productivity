@@ -435,6 +435,8 @@ template {
 
 .header__icon {
     fill: #B6BAC7;
+    width: 19px;
+    height: 17px;
 }
 
 .header__icon:hover {

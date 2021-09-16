@@ -387,9 +387,18 @@ template {
   text-align: center;
   margin-left: 10px; }
 
+.header__social a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header__social:nth-child(3) .header__icon {
+  width: 26px;
+  height: 22px; }
+
 .header__icon {
   fill: #B6BAC7;
-  width: 8px;
+  width: 19px;
   height: 17px; }
 
 .header__icon:hover {
@@ -431,6 +440,12 @@ template {
     font-family: 'Quicksand', sans-serif; }
   .diagram__text {
     max-width: 502px; }
+  .diagram__inner-gradient {
+    width: 100%; }
+  .diagram__gradient, .diagram__line {
+    position: absolute;
+    top: 137px;
+    left: 0; }
 
 .menu {
   margin-left: 43px; }
@@ -446,6 +461,14 @@ template {
 
 .customers-wrapper {
   min-height: 145px; }
+
+.customers__company-item {
+  width: 116px;
+  height: 29px;
+  fill: #B6BAC7; }
+
+.customers__company-item:hover {
+  fill: #3A79FF; }
 
 .features {
   padding-top: 180px;
@@ -535,6 +558,14 @@ template {
 
 .customers-wrapper {
   min-height: 145px; }
+
+.customers__company-item {
+  width: 116px;
+  height: 29px;
+  fill: #B6BAC7; }
+
+.customers__company-item:hover {
+  fill: #3A79FF; }
 
 .blog {
   background: #F5F8FF;
