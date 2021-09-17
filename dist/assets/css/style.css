@@ -433,6 +433,20 @@ template {
     margin-left: 10px;
 }
 
+.header__social a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header__social:nth-child(3) .header__icon {
+    width: 26px;
+    height: 22px;
+}
+
 .header__icon {
     fill: #B6BAC7;
     width: 19px;
@@ -493,6 +507,24 @@ template {
     max-width: 502px;
 }
 
+.diagram__inner-gradient {
+    width: 100%;
+}
+
+.diagram__gradient, .diagram__line {
+    position: absolute;
+    top: 137px;
+    left: 0;
+}
+
+.diagram__row-center {
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
+    width: 52px;
+    height: 52px;
+}
+
 .menu {
     margin-left: 43px;
 }
@@ -512,6 +544,16 @@ template {
 
 .customers-wrapper {
     min-height: 145px;
+}
+
+.customers__company-item {
+    width: 116px;
+    height: 29px;
+    fill: #B6BAC7;
+}
+
+.customers__company-item:hover {
+    fill: #3A79FF;
 }
 
 .features {
@@ -631,6 +673,16 @@ template {
 
 .customers-wrapper {
     min-height: 145px;
+}
+
+.customers__company-item {
+    width: 116px;
+    height: 29px;
+    fill: #B6BAC7;
+}
+
+.customers__company-item:hover {
+    fill: #3A79FF;
 }
 
 .blog {
