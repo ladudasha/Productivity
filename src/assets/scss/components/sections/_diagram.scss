@@ -31,29 +31,32 @@
     &__text {
         max-width: 502px;
     }
-    // &__box {
-    //     width: 100%;
-    // }
     &__line {
         position: absolute;
         width: 100%;
         height: 465px;
         bottom: -219px;
         left: 0;
-        fill: none;
     }
-    // &__gradient,
-    // &__line {
-    //     position: absolute;
-    //     bottom: 0px;
-    //     right: 0;
-    //     width: 100%;
-    // }
     &__row-center {
         background: #FFFFFF;
         border-radius: 50%;
         box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
         width: 52px;
         height: 52px;
+        position: relative;
+    }
+    &__ellipse {
+        width: 15px;
+        height: 15px;
+        background: #FFFFFF;
+        border: 2px solid #5E80FE;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 15px rgba(82, 131, 255, 0.25);
+        border-radius: 50%;
+        position: absolute;
+        bottom: -152px;
+        left: 515px;
+        &:hover {}
     }
 }
