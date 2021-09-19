@@ -521,6 +521,25 @@ template {
     box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
     width: 52px;
     height: 52px;
+    position: relative;
+}
+
+.diagram__ellipse {
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    border: 2px solid #5E80FE;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(82, 131, 255, 0.25);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -152px;
+    left: 515px;
+}
+
+.diagram__ellipse:hover {
+    transition: 0.7s;
+    background-image: url(../images/diagram/hover.svg);
 }
 
 .menu {
