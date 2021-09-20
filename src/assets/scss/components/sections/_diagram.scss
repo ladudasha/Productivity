@@ -50,19 +50,21 @@
         width: 15px;
         height: 15px;
         position: absolute;
-        background: #FFFFFF;
+        fill: #FFFFFF;
         border: 2px solid #5E80FE;
-        box-sizing: border-box;
         border-radius: 50%;
         left: 115px;
-        bottom: 137px;
-        &:hover {
-            background-image: url(../images/diagram/hover.svg);
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 92px;
-            height: 69px;
-        }
+        bottom: 139px;
+    }
+    &__img {
+        position: absolute;
+        left: 49px;
+        bottom: 129px;
+        opacity: 0;
+        transition: all .2s ease;
+    }
+    &__link:hover .diagram__img {
+        opacity: 1;
+        transition: all .2s ease;
     }
 }
