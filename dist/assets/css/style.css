@@ -524,7 +524,7 @@ template {
     fill: none;
 }
 
-.diagram__ellipse {
+.diagram__circle {
     width: 15px;
     height: 15px;
     position: absolute;
@@ -535,13 +535,17 @@ template {
     bottom: 139px;
 }
 
-.diagram__ellipse:hover {
-    background-image: url(../images/diagram/hover.svg);
+.diagram__icon {
     position: absolute;
-    bottom: 186px;
-    left: 50px;
-    width: 92px;
-    height: 69px;
+    left: 49px;
+    bottom: 129px;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.diagram__link:hover .diagram__icon {
+    opacity: 1;
+    transition: all .2s ease;
 }
 
 .menu {
