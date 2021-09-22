@@ -651,7 +651,7 @@ template {
     color: #3D4F9F;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 32px; }
-  .blog-text {
+  .blog__text {
     font-size: 14px;
     font-weight: 400;
     line-height: 27px;
