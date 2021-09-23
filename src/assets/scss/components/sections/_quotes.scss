@@ -30,16 +30,15 @@
     &__indicators {
         // bottom: -125px;
         position: absolute;
-        bottom: -55px;
+        bottom: -46px;
         left: 20px;
     }
     &__carousel-inner {
-        height: 230px;
-        margin-left: 13px;
+        height: 245px;
+        // margin-left: 30px;
     }
     &__wrapper {
-        width: 423px;
-        height: 175px;
+        padding: 35px 55px 42px 67px;
         background: #FFFFFF;
         border: 1px solid #D8E3FE;
         position: relative;
@@ -50,8 +49,6 @@
         font-family: 'Roboto', sans-serif;
         @include text (14px, 400, 24px, #676F95);
         letter-spacing: 0.03em;
-        margin-top: 41px;
-        margin-left: 69px;
     }
     &__img {
         width: 62px;

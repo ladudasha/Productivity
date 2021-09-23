@@ -1,6 +1,7 @@
 .features {
-    padding-top: 180px;
-    padding-bottom: 183px;
+    padding-top: 185px;
+    padding-bottom: 185px;
+    background: url(../images/features/clouds.svg) no-repeat center;
     &__subtitle {
         @include text (10px, 500, 12px, #3D4F9F);
         letter-spacing: 0.1em;

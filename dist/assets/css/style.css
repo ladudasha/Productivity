@@ -745,6 +745,12 @@ template {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1220px) {
+    .blog__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .blog__slider {
     height: 394px;
 }
@@ -793,6 +799,14 @@ template {
     margin-right: 13px;
 }
 
+.blog__content {
+    max-width: 408px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
 .blog__heading {
     font-size: 36px;
     font-weight: 400;
@@ -802,7 +816,7 @@ template {
     margin-bottom: 32px;
 }
 
-.blog-text {
+.blog__text {
     font-size: 14px;
     font-weight: 400;
     line-height: 27px;

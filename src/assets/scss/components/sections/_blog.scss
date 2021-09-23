@@ -27,8 +27,11 @@
         background-color: white;
         border: 1px solid #D8E3FE;
         margin: 0 auto;
-        // @include media (md) {
-        //     grid-template-columns: repeat(2, 1fr);
+        @media screen and (max-width: 1220px) {
+            grid-template-columns: 1fr;
+        } // @include media (md) {
+        //     grid-template-columns: 1fr;
+        //     grid-template-rows: 1fr;
         // }
     }
     &__slider {
@@ -68,11 +71,11 @@
     &-pic {
         margin-right: 13px;
     }
-    // &__content {
-    //     max-width: 408px;
-    //     display: flex;
-    //     flex-direction: column;
-    // }
+    &__content {
+        max-width: 408px;
+        display: flex;
+        flex-direction: column;
+    }
     &__heading {
         @include text (36px, 400, 45px, #3D4F9F);
         font-family: 'Quicksand', sans-serif;
