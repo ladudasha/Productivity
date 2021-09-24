@@ -1,6 +1,7 @@
 .diagram {
     padding-top: 37px;
     background: url(../images/diagram/group-left.svg) left no-repeat, url(../images/diagram/group-right.svg) right no-repeat, linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    position: relative;
     &__indicators li {
         width: 8px;
         height: 8px;
@@ -49,7 +50,7 @@
     // }
     &__main {
         position: absolute;
-        top: 10px;
+        bottom: 0;
         left: 0;
     }
     &__circle {
@@ -73,7 +74,14 @@
     //     opacity: 1;
     //     transition: all .2s ease;
     // }
-    &__circle:hover+&__icon {
+    // &__circle:hover+&__icon {
+    //     opacity: 1;
+    //     transition: all .2s ease;
+    // }
+    &__hover {
+        opacity: 0;
+    }
+    &__circle:hover &__hover {
         opacity: 1;
         transition: all .2s ease;
     }

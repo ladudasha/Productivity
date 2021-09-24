@@ -99,32 +99,16 @@
     <!-- diagram -->
     <section class="diagram">
 
-        <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-            <ol class="diagram__indicators carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="diagram__item carousel-item active">
-                    <div class="row  text-center">
-                        <div class="col d-flex flex-column">
-                            <h3 class="diagram__subtitle">PLAN YOUR LIFE</h3>
-                            <h2 class="diagram__title">Increase your <span class="diagram__span">productivity</span> </h2>
-                            <p class="diagram__text text-center mx-auto">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
-                            <button class="diagram__row-center">
-                                <img src="./assets/images/diagram/Polygon.svg" alt="row">
-                            </button>
 
 
-                            <svg width="1436" height="465" viewBox="0 0 1436 465" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <svg class="diagram__main" viewBox="0 0 1436 465" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                                 <path d="M0 422.51C202.703 422.51 347.472 387.633 480.333 389.758C789.74 394.705 643.639 247.682 960.667 247.682C1305.86 247.682 1223.24 118 1441 118" stroke="#5F82FF" stroke-width="3"/>
                                 <path d="M480.333 389.758C347.472 387.633 202.703 422.51 0 422.51V465H1441V118C1223.24 118 1305.86 247.682 960.667 247.682C643.639 247.682 789.74 394.705 480.333 389.758Z" fill="url(#paint0_linear)" fill-opacity="0.4"/>
                                 <line x1="924.5" y1="200" x2="924.5" y2="389" stroke="#D8E0F7"/>
                                 <line x1="1332.5" x2="1332.5" y2="317" stroke="#D8E0F7"/>
                                 <line x1="515.5" y1="378" x2="515.5" y2="437" stroke="#D8E0F7"/>
                                 <line x1="107.5" y1="262" x2="107.5" y2="452" stroke="#D8E0F7"/>
-                                <g filter="url(#filter0_d)">
+                                <g class="diagram__circle" filter="url(#filter0_d)">
                                 <circle cx="924.5" cy="248.5" r="7.5" fill="white"/>
                                 <circle cx="924.5" cy="248.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
                                 </g>
@@ -136,11 +120,11 @@
                                 <circle cx="107.5" cy="419.5" r="7.5" fill="white"/>
                                 <circle cx="107.5" cy="419.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
                                 </g>
-                                <g filter="url(#filter3_d)">
+                                <g class="diagram__circle" filter="url(#filter3_d)">
                                 <circle cx="515.5" cy="389.5" r="7.5" fill="white"/>
                                 <circle cx="515.5" cy="389.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
                                 </g>
-                                <g filter="url(#filter4_d)">
+                                <g class="diagram__hover" filter="url(#filter4_d)">
                                 <mask id="path-15-inside-1" fill="white">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M562 303C562 301.343 560.657 300 559 300H473C471.343 300 470 301.343 470 303V360.26C470 361.917 471.343 363.26 473 363.26H509.669C510.665 363.26 511.596 363.754 512.154 364.579L513.515 366.591C514.705 368.35 517.295 368.35 518.485 366.591L519.846 364.579C520.403 363.754 521.335 363.26 522.331 363.26H559C560.657 363.26 562 361.917 562 360.26V303Z"/>
                                 </mask>
@@ -206,7 +190,31 @@
                                 <stop offset="1" stop-color="#6B89F8"/>
                                 </linearGradient>
                                 </defs>
-                                </svg>
+                                </svg> -->
+
+
+
+
+
+
+        <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+            <ol class="diagram__indicators carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="diagram__item carousel-item active">
+                    <div class="row  text-center">
+                        <div class="col d-flex flex-column">
+                            <h3 class="diagram__subtitle">PLAN YOUR LIFE</h3>
+                            <h2 class="diagram__title">Increase your <span class="diagram__span">productivity</span> </h2>
+                            <p class="diagram__text text-center mx-auto">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+                            <button class="diagram__row-center">
+                                <img src="./assets/images/diagram/Polygon.svg" alt="row">
+                            </button>
+
+
 
 
 
@@ -308,89 +316,7 @@
 
 
 
-                            <use xlink:href="./assets/img/home/line.svg#line" />
-                            <path id="linebg" d="M480.333 271.758C347.472 269.633 202.703 304.51 0 304.51V347H1441V0C1223.24 0 1305.86 129.682 960.667 129.682C643.639 129.682 789.74 276.705 480.333 271.758Z" fill="url(#paint0_linear)" fill-opacity="0.4" />
-                            <defs>
-                                <linearGradient id="paint0_linear" x1="278.466" y1="347.443" x2="278.466" y2="-107.995" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#4B71FF" stop-opacity="0" />
-                                    <stop offset="1" stop-color="#6B89F8" />
-                                </linearGradient>
-                            </defs>
-                            </g>
 
-                            <g class="main__circle">
-                                <line x1="100" x2="100" y1="340" y2="180" stroke="#D8E0F7" />
-                                <defs>
-                                    <filter id="filter0_d" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                                        <feOffset />
-                                        <feGaussianBlur stdDeviation="7.5" />
-                                        <feColorMatrix type="matrix" values="0 0 0 0 0.323144 0 0 0 0 0.512664 0 0 0 0 1 0 0 0 0.25 0" />
-                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-                                    </filter>
-                                </defs>
-                                <circle cx="100" cy="304" r="6.5" fill="white" stroke="#5E80FE" stroke-width="2" id="circle_one" />
-                                <circle cx="100" cy="304" r="6.5" stroke="#5E80FE" stroke-width="2" id="circle_one_bg" />
-                            </g>
-                            <use class="main__icon-hover" x="54" y="220" xlink:href="./assets/img/home/icon_hover.svg#icon" id="icon_one" />
-
-
-                            <g class="main__circle">
-                                <line x1="508" x2="508" y1="330" y2="260" stroke="#D8E0F7" />
-                                <defs>
-                                    <filter id="filter0_d" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                                        <feOffset />
-                                        <feGaussianBlur stdDeviation="7.5" />
-                                        <feColorMatrix type="matrix" values="0 0 0 0 0.323144 0 0 0 0 0.512664 0 0 0 0 1 0 0 0 0.25 0" />
-                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-                                    </filter>
-                                </defs>
-                                <circle cx="508" cy="274" r="6.5" fill="white" stroke="#5E80FE" stroke-width="2" id="circle_two" />
-                                <circle cx="508" cy="274" r="6.5" stroke="#5E80FE" stroke-width="2" id="circle_two_bg" />
-                            </g>
-                            <use class="main__icon-hover" x="462" y="180" xlink:href="./assets/img/home/icon_hover.svg#icon" id="icon_two" />
-
-                            <g class="main__circle">
-                                <line x1="917" x2="917" y1="80" y2="270" stroke="#D8E0F7" />
-                                <defs>
-                                    <filter id="filter0_d" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                                        <feOffset />
-                                        <feGaussianBlur stdDeviation="7.5" />
-                                        <feColorMatrix type="matrix" values="0 0 0 0 0.323144 0 0 0 0 0.512664 0 0 0 0 1 0 0 0 0.25 0" />
-                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-                                    </filter>
-                                </defs>
-                                <circle cx="917" cy="132" r="6.5" fill="white" stroke="#5E80FE" stroke-width="2" id="circle_three" />
-                                <circle cx="917" cy="132" r="6.5" stroke="#5E80FE" stroke-width="2" id="circle_three_bg" />
-                            </g>
-                            <use class="main__icon-hover" x="871" y="50" xlink:href="./assets/img/home/icon_hover.svg#icon" id="icon_three" />
-
-                            <g class="main__circle">
-                                <line x1="1325" x2="1325" y1="5" y2="200" stroke="#D8E0F7" />
-                                <defs>
-                                    <filter id="filter0_d" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                                        <feOffset />
-                                        <feGaussianBlur stdDeviation="7.5" />
-                                        <feColorMatrix type="matrix" values="0 0 0 0 0.323144 0 0 0 0 0.512664 0 0 0 0 1 0 0 0 0.25 0" />
-                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-                                    </filter>
-                                </defs>
-                                <circle cx="1325" cy="22" r="6.5" fill="white" stroke="#5E80FE" stroke-width="2" />
-                                <circle cx="1325" cy="22" r="6.5" stroke="#5E80FE" stroke-width="2" />
-                            </g>
-
-                            </svg> -->
 
                         </div>
                     </div>
@@ -496,9 +422,9 @@
     <section class="plan">
         <div class="container">
 
-            <div class="row  align-items-center offset-1">
+            <div class="row  align-items-center">
 
-                <div class="plan__content col-xl-5 ">
+                <div class="plan__content col-xl-5  offset-1">
                     <h3 class="plan__subtitle">DESKTOP AND MOBILE APP</h3>
                     <h2 class="plan__title">Plan <span class="plan__span">and</span> manage</h2>
                     <p class="plan__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.
@@ -512,9 +438,10 @@
 
                 <div class="plan__gallery col-md-6">
 
-                    <img class="plan__img" src="./assets/images/plan/big.png" alt="">
-                    <img class="plan__img--medium" src="./assets/images/plan/s.png" alt="">
-                    <img class="plan__img--small" src="./assets/images/plan/xs.png" alt="">
+                    <div class="plan__wrapper">
+                        <img class="plan__img" src="./assets/images/plan/illustration.png" alt="">
+
+                    </div>
 
                 </div>
 
@@ -734,13 +661,13 @@
         <div class="container">
 
             <div class="quotes__row row justify-content-center align-items-center mx-auto">
-                <div class="col-5 ml-4">
+                <div class="col-xl-5 ml-4 col-sm-12">
                     <h4 class="quotes__subtitle">TESTIMONIALS</h4>
                     <h2 class="quotes__title">Customers's quotes</h2>
                     <p class="quotes__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.</p>
 
                 </div>
-                <div class="col-5">
+                <div class="col-xl-5 col-sm-12">
                     <div class="carousel slide" data-interval="false" id="carouselQuotes" data-ride="carousel">
                         <ol class="quotes__indicators carousel-indicators">
                             <li data-target="#carouselQuotes" data-slide-to="0" class="active"></li>

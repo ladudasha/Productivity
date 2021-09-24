@@ -519,7 +519,7 @@ template {
 .diagram__main {
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 5px;
 }
 
 .diagram__circle {
@@ -574,8 +574,9 @@ template {
 }
 
 .features {
-    padding-top: 180px;
-    padding-bottom: 183px;
+    padding-top: 185px;
+    padding-bottom: 185px;
+    background: url(../images/features/clouds.svg) no-repeat center;
 }
 
 .features__subtitle {
@@ -984,7 +985,7 @@ template {
     line-height: 29px;
     color: #FFFFFF;
     letter-spacing: 0.03em;
-    width: 712px;
+    max-width: 712px;
     text-align: center;
     margin-bottom: 28px;
 }
@@ -1201,18 +1202,16 @@ template {
 
 .quotes__indicators {
     position: absolute;
-    bottom: -55px;
+    bottom: -46px;
     left: 20px;
 }
 
 .quotes__carousel-inner {
-    height: 230px;
-    margin-left: 13px;
+    height: 245px;
 }
 
 .quotes__wrapper {
-    width: 423px;
-    height: 175px;
+    padding: 35px 55px 42px 67px;
     background: #FFFFFF;
     border: 1px solid #D8E3FE;
     position: relative;
@@ -1226,8 +1225,6 @@ template {
     line-height: 24px;
     color: #676F95;
     letter-spacing: 0.03em;
-    margin-top: 41px;
-    margin-left: 69px;
 }
 
 .quotes__img {

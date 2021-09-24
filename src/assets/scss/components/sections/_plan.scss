@@ -1,7 +1,12 @@
 .plan {
-    padding-top: 208px;
-    padding-bottom: 216px;
+    padding-top: 210px;
+    padding-bottom: 240px;
     background-color: #F5F8FF;
+    &__content {
+        @media screen and (max-width: 1220px) {
+            margin: o auto;
+        }
+    }
     &__title {
         @include text (36px, 500, 45px, #3D4F9F);
         font-family: 'Quicksand', sans-serif;
@@ -44,18 +49,10 @@
     }
     &__img {
         position: absolute;
-        top: -235px;
-        left: -97px;
-        &--medium {
-            position: absolute;
-            top: -50px;
-            right: -140px;
-            ;
-        }
-        &--small {
-            position: absolute;
-            top: -103px;
-            left: 55px;
+        top: -240px;
+        left: -130px;
+        @media screen and (max-width: 1380px) {
+            display: none;
         }
     }
 }
