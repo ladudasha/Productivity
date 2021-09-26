@@ -40,24 +40,10 @@
         height: 52px;
         margin: 0 auto;
     }
-    // &__line {
-    //     position: relative;
-    //     top: -140px;
-    //     left: 0px;
-    //     height: 307px;
-    //     width: 100%;
-    //     fill: none;
-    // }
     &__main {
         position: absolute;
         bottom: 0;
         left: 0;
-    }
-    &__circle {
-        position: absolute;
-        left: 115px;
-        bottom: 139px;
-        cursor: pointer;
     }
     &__icon {
         position: absolute;
@@ -70,19 +56,31 @@
         //     transition: all .2s ease;
         // }
     }
-    // &__link:hover .diagram__icon {
+    &__hover {
+        opacity: 0;
+    }
+    // &__link:hover{
+    // .diagram__icon {
     //     opacity: 1;
     //     transition: all .2s ease;
     // }
+    // } 
     // &__circle:hover+&__icon {
     //     opacity: 1;
     //     transition: all .2s ease;
     // }
-    &__hover {
-        opacity: 0;
+    &__circle {
+        cursor: pointer;
+        &:hover .icon__hover {
+            opacity: 1;
+            transition: all .2s ease;
+        }
     }
-    &__circle:hover &__hover {
-        opacity: 1;
-        transition: all .2s ease;
-    }
+    // &__circle:hover {
+    //     background-image: url(../images/diagram/hover.svg);
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     transition: all .2s ease;
+    // }
 }

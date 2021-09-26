@@ -452,11 +452,6 @@ template {
     position: absolute;
     bottom: 0;
     left: 0; }
-  .diagram__circle {
-    position: absolute;
-    left: 115px;
-    bottom: 139px;
-    cursor: pointer; }
   .diagram__icon {
     position: absolute;
     left: 49px;
@@ -465,9 +460,11 @@ template {
     transition: all .2s ease; }
   .diagram__hover {
     opacity: 0; }
-  .diagram__circle:hover .diagram__hover {
-    opacity: 1;
-    transition: all .2s ease; }
+  .diagram__circle {
+    cursor: pointer; }
+    .diagram__circle:hover .icon__hover {
+      opacity: 1;
+      transition: all .2s ease; }
 
 .menu {
   margin-left: 43px; }
@@ -482,7 +479,8 @@ template {
     margin-right: 10px; }
 
 .customers-wrapper {
-  min-height: 145px; }
+  min-height: 145px;
+  max-width: 945px; }
 
 .customers__company-item {
   width: 116px;
@@ -580,7 +578,8 @@ template {
       border: 1px solid #DAE4FE; }
 
 .customers-wrapper {
-  min-height: 145px; }
+  min-height: 145px;
+  max-width: 945px; }
 
 .customers__company-item {
   width: 116px;

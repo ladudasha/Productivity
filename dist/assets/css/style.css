@@ -460,6 +460,7 @@ template {
 .diagram {
     padding-top: 37px;
     background: url(../images/diagram/group-left.svg) left no-repeat, url(../images/diagram/group-right.svg) right no-repeat, linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    position: relative;
 }
 
 .diagram__indicators li {
@@ -518,15 +519,8 @@ template {
 
 .diagram__main {
     position: absolute;
-    top: 10px;
-    left: 5px;
-}
-
-.diagram__circle {
-    position: absolute;
-    left: 115px;
-    bottom: 139px;
-    cursor: pointer;
+    bottom: 0;
+    left: 0;
 }
 
 .diagram__icon {
@@ -537,7 +531,15 @@ template {
     transition: all .2s ease;
 }
 
-.diagram__circle:hover + .diagram__icon {
+.diagram__hover {
+    opacity: 0;
+}
+
+.diagram__circle {
+    cursor: pointer;
+}
+
+.diagram__circle:hover .diagram__hover {
     opacity: 1;
     transition: all .2s ease;
 }
@@ -561,6 +563,7 @@ template {
 
 .customers-wrapper {
     min-height: 145px;
+    max-width: 945px;
 }
 
 .customers__company-item {
@@ -691,6 +694,7 @@ template {
 
 .customers-wrapper {
     min-height: 145px;
+    max-width: 945px;
 }
 
 .customers__company-item {
@@ -735,20 +739,25 @@ template {
 }
 
 .blog__grid {
-    display: grid;
     padding: 63px 41px 64px 35px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 67px;
     max-width: 958px;
     width: 100%;
     background-color: white;
     border: 1px solid #D8E3FE;
     margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1220px) {
     .blog__grid {
-        grid-template-columns: 1fr;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 }
 
@@ -861,9 +870,15 @@ template {
 }
 
 .plan {
-    padding-top: 208px;
-    padding-bottom: 216px;
+    padding-top: 210px;
+    padding-bottom: 240px;
     background-color: #F5F8FF;
+}
+
+@media screen and (max-width: 1220px) {
+    .plan__content {
+        margin: o auto;
+    }
 }
 
 .plan__title {
@@ -928,20 +943,14 @@ template {
 
 .plan__img {
     position: absolute;
-    top: -235px;
-    left: -97px;
+    top: -240px;
+    left: -130px;
 }
 
-.plan__img--medium {
-    position: absolute;
-    top: -50px;
-    right: -140px;
-}
-
-.plan__img--small {
-    position: absolute;
-    top: -103px;
-    left: 55px;
+@media screen and (max-width: 1380px) {
+    .plan__img {
+        display: none;
+    }
 }
 
 .started {
@@ -1235,7 +1244,7 @@ template {
     border-radius: 50%;
     position: absolute;
     bottom: -33px;
-    left: 183px;
+    left: 45%;
     z-index: 1;
 }
 
