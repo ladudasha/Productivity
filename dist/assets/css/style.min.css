@@ -459,12 +459,16 @@ template {
     opacity: 0;
     transition: all .2s ease; }
   .diagram__hover {
-    opacity: 0; }
+    opacity: 1; }
   .diagram__circle {
-    cursor: pointer; }
-    .diagram__circle:hover .icon__hover {
-      opacity: 1;
-      transition: all .2s ease; }
+    cursor: pointer;
+    position: relative; }
+  .diagram__baloon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 152px;
+    height: 148px; }
 
 .menu {
   margin-left: 43px; }

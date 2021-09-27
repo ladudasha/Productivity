@@ -57,7 +57,7 @@
         // }
     }
     &__hover {
-        opacity: 0;
+        opacity: 1;
     }
     // &__link:hover{
     // .diagram__icon {
@@ -71,10 +71,14 @@
     // }
     &__circle {
         cursor: pointer;
-        &:hover .icon__hover {
-            opacity: 1;
-            transition: all .2s ease;
-        }
+        position: relative;
+    }
+    &__baloon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 152px;
+        height: 148px;
     }
     // &__circle:hover {
     //     background-image: url(../images/diagram/hover.svg);
@@ -84,3 +88,10 @@
     //     transition: all .2s ease;
     // }
 }
+
+// &__circle:hover .diagram__hover {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     transition: all .2s ease;
+// }

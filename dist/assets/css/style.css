@@ -539,7 +539,7 @@ template {
     cursor: pointer;
 }
 
-.diagram__circle:hover .diagram__hover {
+.diagram__circle:hover .icon__hover {
     opacity: 1;
     transition: all .2s ease;
 }

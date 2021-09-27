@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-
-<symbol id="icon-hover" viewBox="0 0 152 128">
+<svg  width="152" height="128" viewBox="0 0 152 128">
+<defs>
+<g id="diagramHover" >
     <g filter="url(#filter0_d)">
     <mask id="path-1-inside-1" fill="white">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M122 23C122 21.3431 120.657 20 119 20H33C31.3431 20 30 21.3431 30 23V80.26C30 81.9168 31.3431 83.26 33 83.26H69.6692C70.6652 83.26 71.5963 83.7543 72.1542 84.5793L73.5149 86.5912C74.7046 88.3504 77.2953 88.3504 78.485 86.5911L79.8455 84.5794C80.4035 83.7543 81.3346 83.26 82.3306 83.26H119C120.657 83.26 122 81.9168 122 80.26V23Z"/>
@@ -27,7 +27,7 @@
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
     </filter>
     </defs>
-</symbol>
+</g>
 
-
+</defs>
 </svg>

@@ -1,5 +1,5 @@
-<svg width="152" height="128" viewBox="0 0 152 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d)">
+<svg class="diagram__hover" width="152" height="128" viewBox="0 0 152 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dddd)">
 <mask id="path-1-inside-1" fill="white">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M122 23C122 21.3431 120.657 20 119 20H33C31.3431 20 30 21.3431 30 23V80.26C30 81.9168 31.3431 83.26 33 83.26H69.6692C70.6652 83.26 71.5963 83.7543 72.1542 84.5793L73.5149 86.5912C74.7046 88.3504 77.2953 88.3504 78.485 86.5911L79.8455 84.5794C80.4035 83.7543 81.3346 83.26 82.3306 83.26H119C120.657 83.26 122 81.9168 122 80.26V23Z"/>
 </mask>
@@ -15,7 +15,7 @@
 <ellipse cx="92.5106" cy="53.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
 </g>
 <defs>
-<filter id="filter0_d" x="0" y="0" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_dddd" x="0" y="0" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="10"/>
