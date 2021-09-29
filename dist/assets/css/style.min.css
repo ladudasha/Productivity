@@ -433,6 +433,8 @@ template {
     color: #3D4F9F;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 28px; }
+  .diagram__wrap {
+    position: static; }
   .diagram__span {
     font-size: 48px;
     font-weight: 500;
@@ -450,25 +452,18 @@ template {
     margin: 0 auto; }
   .diagram__main {
     position: absolute;
-    bottom: 0;
-    left: 0; }
-  .diagram__icon {
-    position: absolute;
-    left: 49px;
-    bottom: 129px;
-    opacity: 0;
-    transition: all .2s ease; }
-  .diagram__hover {
-    opacity: 1; }
-  .diagram__circle {
-    cursor: pointer;
-    position: relative; }
-  .diagram__baloon {
-    position: absolute;
-    top: 0;
     left: 0;
-    width: 152px;
-    height: 148px; }
+    bottom: 0; }
+  .diagram__point {
+    cursor: pointer; }
+  .diagram__baloon {
+    opacity: 0; }
+  .diagram__point:hover + .diagram__baloon {
+    opacity: 1; }
+  .diagram__baloon-first {
+    opacity: 0; }
+  .diagram__point:hover + .diagram__baloon-first {
+    opacity: 1; }
 
 .menu {
   margin-left: 43px; }

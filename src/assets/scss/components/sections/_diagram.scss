@@ -25,6 +25,9 @@
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 28px;
     }
+    &__wrap {
+        position: static;
+    }
     &__span {
         @include text (48px, 500, 60px, #3D4F9F);
         font-family: 'Quicksand', sans-serif;
@@ -42,56 +45,22 @@
     }
     &__main {
         position: absolute;
-        bottom: 0;
         left: 0;
+        bottom: 0;
     }
-    &__icon {
-        position: absolute;
-        left: 49px;
-        bottom: 129px;
-        opacity: 0;
-        transition: all .2s ease;
-        // &:hover {
-        //     opacity: 1;
-        //     transition: all .2s ease;
-        // }
-    }
-    &__hover {
-        opacity: 1;
-    }
-    // &__link:hover{
-    // .diagram__icon {
-    //     opacity: 1;
-    //     transition: all .2s ease;
-    // }
-    // } 
-    // &__circle:hover+&__icon {
-    //     opacity: 1;
-    //     transition: all .2s ease;
-    // }
-    &__circle {
+    &__point {
         cursor: pointer;
-        position: relative;
     }
     &__baloon {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 152px;
-        height: 148px;
+        opacity: 0;
     }
-    // &__circle:hover {
-    //     background-image: url(../images/diagram/hover.svg);
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     transition: all .2s ease;
-    // }
+    &__point:hover+&__baloon {
+        opacity: 1;
+    }
+    &__baloon-first {
+        opacity: 0;
+    }
+    &__point:hover+&__baloon-first {
+        opacity: 1;
+    }
 }
-
-// &__circle:hover .diagram__hover {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     transition: all .2s ease;
-// }

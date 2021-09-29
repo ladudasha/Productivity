@@ -99,61 +99,111 @@
     <!-- diagram -->
     <section class="diagram">
 
-        <svg class="diagram__main" viewBox="0 0 1436 465" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+            <ol class="diagram__indicators carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="diagram__item carousel-item active">
+
+                    <div class="row  text-center">
+                        <div class="diagram__wrap col d-flex flex-column">
+                            <h3 class="diagram__subtitle">PLAN YOUR LIFE</h3>
+                            <h2 class="diagram__title">Increase your <span class="diagram__span">productivity</span> </h2>
+                            <p class="diagram__text text-center mx-auto">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+                            <button class="diagram__row-center">
+                                <img src="./assets/images/diagram/Polygon.svg" alt="row">
+                            </button>
+
+                            <svg class="diagram__main" viewBox="0 0 1440 465" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                                 <path d="M0 422.51C202.703 422.51 347.472 387.633 480.333 389.758C789.74 394.705 643.639 247.682 960.667 247.682C1305.86 247.682 1223.24 118 1441 118" stroke="#5F82FF" stroke-width="3"/>
                                 <path d="M480.333 389.758C347.472 387.633 202.703 422.51 0 422.51V465H1441V118C1223.24 118 1305.86 247.682 960.667 247.682C643.639 247.682 789.74 394.705 480.333 389.758Z" fill="url(#paint0_linear)" fill-opacity="0.4"/>
-                                <line x1="924.5" y1="200" x2="924.5" y2="389" stroke="#D8E0F7"/>
                                 <line x1="1332.5" x2="1332.5" y2="317" stroke="#D8E0F7"/>
+                                <g filter="url(#filter0_d)">
+                                <circle cx="1332.5" cy="134.5" r="7.5" fill="white"/>
+                                <circle cx="1332.5" cy="134.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
+                                </g>
+                                <use xlink:href="./assets/images/diagram/sprite.svg#baloon1"></use>
+                                <!-- <g filter="url(#filter1_d)">
+                                <mask id="path-6-inside-1" fill="white">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1378 48C1378 46.3431 1376.66 45 1375 45H1289C1287.34 45 1286 46.3431 1286 48V105.26C1286 106.917 1287.34 108.26 1289 108.26H1325.67C1326.67 108.26 1327.6 108.754 1328.15 109.579L1329.51 111.591C1330.7 113.35 1333.3 113.35 1334.48 111.591L1335.85 109.579C1336.4 108.754 1337.33 108.26 1338.33 108.26H1375C1376.66 108.26 1378 106.917 1378 105.26V48Z"/>
+                                </mask>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1378 48C1378 46.3431 1376.66 45 1375 45H1289C1287.34 45 1286 46.3431 1286 48V105.26C1286 106.917 1287.34 108.26 1289 108.26H1325.67C1326.67 108.26 1327.6 108.754 1328.15 109.579L1329.51 111.591C1330.7 113.35 1333.3 113.35 1334.48 111.591L1335.85 109.579C1336.4 108.754 1337.33 108.26 1338.33 108.26H1375C1376.66 108.26 1378 106.917 1378 105.26V48Z" fill="white"/>
+                                <path d="M1335.85 109.579L1335.02 109.019L1335.85 109.579ZM1329.51 111.591L1330.34 111.031L1329.51 111.591ZM1334.48 111.591L1335.31 112.151L1334.48 111.591ZM1289 46H1375V44H1289V46ZM1287 105.26V48H1285V105.26H1287ZM1325.67 107.26H1289V109.26H1325.67V107.26ZM1330.34 111.031L1328.98 109.019L1327.33 110.14L1328.69 112.151L1330.34 111.031ZM1335.02 109.019L1333.66 111.031L1335.31 112.151L1336.67 110.14L1335.02 109.019ZM1375 107.26H1338.33V109.26H1375V107.26ZM1377 48V105.26H1379V48H1377ZM1375 109.26C1377.21 109.26 1379 107.469 1379 105.26H1377C1377 106.365 1376.1 107.26 1375 107.26V109.26ZM1336.67 110.14C1337.05 109.59 1337.67 109.26 1338.33 109.26V107.26C1337 107.26 1335.76 107.919 1335.02 109.019L1336.67 110.14ZM1328.69 112.151C1330.27 114.497 1333.73 114.497 1335.31 112.151L1333.66 111.031C1332.86 112.204 1331.14 112.204 1330.34 111.031L1328.69 112.151ZM1325.67 109.26C1326.33 109.26 1326.95 109.59 1327.33 110.14L1328.98 109.019C1328.24 107.919 1327 107.26 1325.67 107.26V109.26ZM1285 105.26C1285 107.469 1286.79 109.26 1289 109.26V107.26C1287.9 107.26 1287 106.365 1287 105.26H1285ZM1375 46C1376.1 46 1377 46.8954 1377 48H1379C1379 45.7909 1377.21 44 1375 44V46ZM1289 44C1286.79 44 1285 45.7909 1285 48H1287C1287 46.8954 1287.9 46 1289 46V44Z" fill="#D8E0F7" mask="url(#path-6-inside-1)"/>
+                                <path d="M1315 78.25C1315 68.7231 1322.67 61 1332.13 61C1333.87 61 1335.55 61.2624 1337.14 61.75" stroke="#5F82FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1328.44 81.9623C1330.48 84.0126 1333.78 84.0126 1335.81 81.9623C1337.85 79.912 1346.28 65.5 1345.53 64.75C1344.79 64 1330.48 72.4874 1328.44 74.5377C1326.41 76.5879 1326.41 79.912 1328.44 81.9623ZM1332.13 79.75C1332.95 79.75 1333.62 79.0785 1333.62 78.25C1333.62 77.4216 1332.95 76.75 1332.13 76.75C1331.3 76.75 1330.64 77.4216 1330.64 78.25C1330.64 79.0785 1331.3 79.75 1332.13 79.75Z" fill="#5F82FF"/>
+                                <ellipse cx="1317.23" cy="87.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="1323.19" cy="93.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="1332.13" cy="95.5" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="1341.06" cy="93.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="1346.28" cy="87.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="1348.51" cy="78.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                </g> -->
+                                <line x1="924.5" y1="200" x2="924.5" y2="389" stroke="#D8E0F7"/>
+                                <g filter="url(#filter2_d)">
+                                <circle cx="924.5" cy="248.5" r="7.5" fill="white"/>
+                                <circle cx="924.5" cy="248.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
+                                </g>
+                                <g filter="url(#filter3_d)">
+                                <mask id="path-19-inside-2" fill="white">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M971 162C971 160.343 969.657 159 968 159H882C880.343 159 879 160.343 879 162V219.26C879 220.917 880.343 222.26 882 222.26H918.669C919.665 222.26 920.596 222.754 921.154 223.579L922.515 225.591C923.705 227.35 926.295 227.35 927.485 225.591L928.846 223.579C929.404 222.754 930.335 222.26 931.331 222.26H968C969.657 222.26 971 220.917 971 219.26V162Z"/>
+                                </mask>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M971 162C971 160.343 969.657 159 968 159H882C880.343 159 879 160.343 879 162V219.26C879 220.917 880.343 222.26 882 222.26H918.669C919.665 222.26 920.596 222.754 921.154 223.579L922.515 225.591C923.705 227.35 926.295 227.35 927.485 225.591L928.846 223.579C929.404 222.754 930.335 222.26 931.331 222.26H968C969.657 222.26 971 220.917 971 219.26V162Z" fill="white"/>
+                                <path d="M928.846 223.579L928.017 223.019L928.846 223.579ZM922.515 225.591L923.343 225.031L922.515 225.591ZM927.485 225.591L928.313 226.151L927.485 225.591ZM882 160H968V158H882V160ZM880 219.26V162H878V219.26H880ZM918.669 221.26H882V223.26H918.669V221.26ZM923.343 225.031L921.983 223.019L920.326 224.14L921.687 226.151L923.343 225.031ZM928.017 223.019L926.657 225.031L928.313 226.151L929.674 224.14L928.017 223.019ZM968 221.26H931.331V223.26H968V221.26ZM970 162V219.26H972V162H970ZM968 223.26C970.209 223.26 972 221.469 972 219.26H970C970 220.365 969.105 221.26 968 221.26V223.26ZM929.674 224.14C930.046 223.59 930.667 223.26 931.331 223.26V221.26C930.003 221.26 928.761 221.919 928.017 223.019L929.674 224.14ZM921.687 226.151C923.273 228.497 926.727 228.497 928.313 226.151L926.657 225.031C925.863 226.204 924.136 226.204 923.343 225.031L921.687 226.151ZM918.669 223.26C919.333 223.26 919.954 223.59 920.326 224.14L921.983 223.019C921.239 221.919 919.997 221.26 918.669 221.26V223.26ZM878 219.26C878 221.469 879.791 223.26 882 223.26V221.26C880.895 221.26 880 220.365 880 219.26H878ZM968 160C969.105 160 970 160.895 970 162H972C972 159.791 970.209 158 968 158V160ZM882 158C879.791 158 878 159.791 878 162H880C880 160.895 880.895 160 882 160V158Z" fill="#D8E0F7" mask="url(#path-19-inside-2)"/>
+                                <path d="M908 192.25C908 182.723 915.668 175 925.128 175C926.871 175 928.554 175.262 930.139 175.75" stroke="#5F82FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M921.442 195.962C923.477 198.013 926.778 198.013 928.814 195.962C930.849 193.912 939.276 179.5 938.532 178.75C937.787 178 923.477 186.487 921.442 188.538C919.406 190.588 919.406 193.912 921.442 195.962ZM925.128 193.75C925.95 193.75 926.617 193.078 926.617 192.25C926.617 191.422 925.95 190.75 925.128 190.75C924.305 190.75 923.638 191.422 923.638 192.25C923.638 193.078 924.305 193.75 925.128 193.75Z" fill="#5F82FF"/>
+                                <ellipse cx="910.234" cy="201.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="916.192" cy="207.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="925.128" cy="209.5" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="934.064" cy="207.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="939.277" cy="201.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="941.511" cy="192.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                </g>
                                 <line x1="515.5" y1="378" x2="515.5" y2="437" stroke="#D8E0F7"/>
+                                <g filter="url(#filter4_d)">
+                                <circle cx="515.5" cy="389.5" r="7.5" fill="white"/>
+                                <circle cx="515.5" cy="389.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
+                                </g>
+                                <g filter="url(#filter5_d)">
+                                <mask id="path-32-inside-3" fill="white">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M562 303C562 301.343 560.657 300 559 300H473C471.343 300 470 301.343 470 303V360.26C470 361.917 471.343 363.26 473 363.26H509.669C510.665 363.26 511.596 363.754 512.154 364.579L513.515 366.591C514.705 368.35 517.295 368.35 518.485 366.591L519.846 364.579C520.403 363.754 521.335 363.26 522.331 363.26H559C560.657 363.26 562 361.917 562 360.26V303Z"/>
+                                </mask>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M562 303C562 301.343 560.657 300 559 300H473C471.343 300 470 301.343 470 303V360.26C470 361.917 471.343 363.26 473 363.26H509.669C510.665 363.26 511.596 363.754 512.154 364.579L513.515 366.591C514.705 368.35 517.295 368.35 518.485 366.591L519.846 364.579C520.403 363.754 521.335 363.26 522.331 363.26H559C560.657 363.26 562 361.917 562 360.26V303Z" fill="white"/>
+                                <path d="M519.846 364.579L519.017 364.019L519.846 364.579ZM513.515 366.591L514.343 366.031L513.515 366.591ZM512.154 364.579L511.326 365.14L512.154 364.579ZM473 301H559V299H473V301ZM471 360.26V303H469V360.26H471ZM509.669 362.26H473V364.26H509.669V362.26ZM514.343 366.031L512.983 364.019L511.326 365.14L512.687 367.151L514.343 366.031ZM519.017 364.019L517.657 366.031L519.313 367.151L520.674 365.14L519.017 364.019ZM559 362.26H522.331V364.26H559V362.26ZM561 303V360.26H563V303H561ZM559 364.26C561.209 364.26 563 362.469 563 360.26H561C561 361.365 560.105 362.26 559 362.26V364.26ZM520.674 365.14C521.046 364.59 521.667 364.26 522.331 364.26V362.26C521.003 362.26 519.761 362.919 519.017 364.019L520.674 365.14ZM512.687 367.151C514.273 369.497 517.727 369.497 519.313 367.151L517.657 366.031C516.864 367.204 515.136 367.204 514.343 366.031L512.687 367.151ZM509.669 364.26C510.333 364.26 510.954 364.59 511.326 365.14L512.983 364.019C512.239 362.919 510.997 362.26 509.669 362.26V364.26ZM469 360.26C469 362.469 470.791 364.26 473 364.26V362.26C471.895 362.26 471 361.365 471 360.26H469ZM559 301C560.105 301 561 301.895 561 303H563C563 300.791 561.209 299 559 299V301ZM473 299C470.791 299 469 300.791 469 303H471C471 301.895 471.895 301 473 301V299Z" fill="#D8E0F7" mask="url(#path-32-inside-3)"/>
+                                <path d="M499 333.25C499 323.723 506.668 316 516.128 316C517.871 316 519.554 316.262 521.139 316.75" stroke="#5F82FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M512.442 336.962C514.477 339.013 517.778 339.013 519.814 336.962C521.849 334.912 530.276 320.5 529.532 319.75C528.787 319 514.477 327.487 512.442 329.538C510.406 331.588 510.406 334.912 512.442 336.962ZM516.127 334.75C516.95 334.75 517.617 334.078 517.617 333.25C517.617 332.422 516.95 331.75 516.127 331.75C515.305 331.75 514.638 332.422 514.638 333.25C514.638 334.078 515.305 334.75 516.127 334.75Z" fill="#5F82FF"/>
+                                <ellipse cx="501.234" cy="342.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="507.191" cy="348.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="516.128" cy="350.5" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="525.064" cy="348.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="530.277" cy="342.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="532.511" cy="333.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                </g>
                                 <line x1="107.5" y1="262" x2="107.5" y2="452" stroke="#D8E0F7"/>
-                                <g class="diagram__circle" filter="url(#filter0_d)">
-                                    <circle class="diagram__circle"cx="924.5" cy="248.5" r="7.5" fill="white"/>
-                                    <circle cx="924.5" cy="248.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
+                                <g filter="url(#filter6_d)">
+                                <circle cx="107.5" cy="419.5" r="7.5" fill="white"/>
+                                <circle cx="107.5" cy="419.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
                                 </g>
-                                <g class="diagram__circle" filter="url(#filter1_d)">
-                                    <circle cx="1332.5" cy="134.5" r="7.5" fill="white"/>
-                                    <circle cx="1332.5" cy="134.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
+                                <g filter="url(#filter7_d)">
+                                <mask id="path-45-inside-4" fill="white">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M154 333C154 331.343 152.657 330 151 330H65C63.3431 330 62 331.343 62 333V390.26C62 391.917 63.3431 393.26 65 393.26H101.669C102.665 393.26 103.596 393.754 104.154 394.579L105.515 396.591C106.705 398.35 109.295 398.35 110.485 396.591L111.846 394.579C112.404 393.754 113.335 393.26 114.331 393.26H151C152.657 393.26 154 391.917 154 390.26V333Z"/>
+                                </mask>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M154 333C154 331.343 152.657 330 151 330H65C63.3431 330 62 331.343 62 333V390.26C62 391.917 63.3431 393.26 65 393.26H101.669C102.665 393.26 103.596 393.754 104.154 394.579L105.515 396.591C106.705 398.35 109.295 398.35 110.485 396.591L111.846 394.579C112.404 393.754 113.335 393.26 114.331 393.26H151C152.657 393.26 154 391.917 154 390.26V333Z" fill="white"/>
+                                <path d="M111.846 394.579L111.017 394.019L111.846 394.579ZM105.515 396.591L106.343 396.031L105.515 396.591ZM110.485 396.591L111.313 397.151L110.485 396.591ZM65 331H151V329H65V331ZM63 390.26V333H61V390.26H63ZM101.669 392.26H65V394.26H101.669V392.26ZM106.343 396.031L104.983 394.019L103.326 395.14L104.687 397.151L106.343 396.031ZM111.017 394.019L109.657 396.031L111.313 397.151L112.674 395.14L111.017 394.019ZM151 392.26H114.331V394.26H151V392.26ZM153 333V390.26H155V333H153ZM151 394.26C153.209 394.26 155 392.469 155 390.26H153C153 391.365 152.105 392.26 151 392.26V394.26ZM112.674 395.14C113.046 394.59 113.667 394.26 114.331 394.26V392.26C113.003 392.26 111.761 392.919 111.017 394.019L112.674 395.14ZM104.687 397.151C106.273 399.497 109.727 399.497 111.313 397.151L109.657 396.031C108.863 397.204 107.136 397.204 106.343 396.031L104.687 397.151ZM101.669 394.26C102.333 394.26 102.954 394.59 103.326 395.14L104.983 394.019C104.239 392.919 102.997 392.26 101.669 392.26V394.26ZM61 390.26C61 392.469 62.7909 394.26 65 394.26V392.26C63.8954 392.26 63 391.365 63 390.26H61ZM151 331C152.105 331 153 331.895 153 333H155C155 330.791 153.209 329 151 329V331ZM65 329C62.7909 329 61 330.791 61 333H63C63 331.895 63.8954 331 65 331V329Z" fill="#D8E0F7" mask="url(#path-45-inside-4)"/>
+                                <path d="M91 363.25C91 353.723 98.6683 346 108.128 346C109.871 346 111.554 346.262 113.139 346.75" stroke="#5F82FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M104.442 366.962C106.477 369.013 109.778 369.013 111.814 366.962C113.849 364.912 122.276 350.5 121.532 349.75C120.787 349 106.477 357.487 104.442 359.538C102.406 361.588 102.406 364.912 104.442 366.962ZM108.128 364.75C108.95 364.75 109.617 364.078 109.617 363.25C109.617 362.422 108.95 361.75 108.128 361.75C107.305 361.75 106.638 362.422 106.638 363.25C106.638 364.078 107.305 364.75 108.128 364.75Z" fill="#5F82FF"/>
+                                <ellipse cx="93.234" cy="372.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="99.1915" cy="378.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="108.128" cy="380.5" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="117.064" cy="378.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="122.277" cy="372.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
+                                <ellipse cx="124.511" cy="363.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
                                 </g>
-                                <g class="diagram__circle" filter="url(#filter2_d)">
-                                    <circle cx="107.5" cy="419.5" r="7.5" fill="white"/>
-                                    <circle cx="107.5" cy="419.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
-                                </g>
-                                <g class="diagram__circle" filter="url(#filter3_d)">
-                                    <g id="diagramHover" >
-                                        <g filter="url(#filter0_dddd)">
-                                            <mask id="path-1-inside-1" fill="white">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M122 23C122 21.3431 120.657 20 119 20H33C31.3431 20 30 21.3431 30 23V80.26C30 81.9168 31.3431 83.26 33 83.26H69.6692C70.6652 83.26 71.5963 83.7543 72.1542 84.5793L73.5149 86.5912C74.7046 88.3504 77.2953 88.3504 78.485 86.5911L79.8455 84.5794C80.4035 83.7543 81.3346 83.26 82.3306 83.26H119C120.657 83.26 122 81.9168 122 80.26V23Z"/>
-                                            </mask>
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M122 23C122 21.3431 120.657 20 119 20H33C31.3431 20 30 21.3431 30 23V80.26C30 81.9168 31.3431 83.26 33 83.26H69.6692C70.6652 83.26 71.5963 83.7543 72.1542 84.5793L73.5149 86.5912C74.7046 88.3504 77.2953 88.3504 78.485 86.5911L79.8455 84.5794C80.4035 83.7543 81.3346 83.26 82.3306 83.26H119C120.657 83.26 122 81.9168 122 80.26V23Z" fill="white"/>
-                                            <path d="M79.8455 84.5794L79.0172 84.0192L79.8455 84.5794ZM73.5149 86.5912L74.3432 86.031L73.5149 86.5912ZM72.1542 84.5793L71.3259 85.1395L72.1542 84.5793ZM33 21H119V19H33V21ZM31 80.26V23H29V80.26H31ZM69.6692 82.26H33V84.26H69.6692V82.26ZM74.3432 86.031L72.9826 84.0191L71.3259 85.1395L72.6865 87.1514L74.3432 86.031ZM79.0172 84.0192L77.6567 86.031L79.3134 87.1513L80.6739 85.1396L79.0172 84.0192ZM119 82.26H82.3306V84.26H119V82.26ZM121 23V80.26H123V23H121ZM119 84.26C121.209 84.26 123 82.4691 123 80.26H121C121 81.3645 120.105 82.26 119 82.26V84.26ZM80.6739 85.1396C81.0459 84.5895 81.6666 84.26 82.3306 84.26V82.26C81.0026 82.26 79.7611 82.9191 79.0172 84.0192L80.6739 85.1396ZM72.6865 87.1514C74.2729 89.497 77.7271 89.4969 79.3134 87.1513L77.6567 86.031C76.8635 87.2038 75.1364 87.2038 74.3432 86.031L72.6865 87.1514ZM69.6692 84.26C70.3332 84.26 70.9539 84.5895 71.3259 85.1395L72.9826 84.0191C72.2386 82.9191 70.9972 82.26 69.6692 82.26V84.26ZM29 80.26C29 82.4691 30.7909 84.26 33 84.26V82.26C31.8954 82.26 31 81.3645 31 80.26H29ZM119 21C120.105 21 121 21.8954 121 23H123C123 20.7909 121.209 19 119 19V21ZM33 19C30.7909 19 29 20.7909 29 23H31C31 21.8954 31.8954 21 33 21V19Z" fill="#D8E0F7" mask="url(#path-1-inside-1)"/>
-                                            <path d="M59 53.25C59 43.7231 66.6683 36 76.1277 36C77.8711 36 79.5537 36.2624 81.1387 36.75" stroke="#5F82FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M72.4415 56.9623C74.4774 59.0126 77.778 59.0126 79.8136 56.9623C81.8492 54.912 90.2765 40.5 89.5319 39.75C88.787 39 74.4774 47.4874 72.4415 49.5377C70.4059 51.5879 70.4059 54.912 72.4415 56.9623ZM76.1273 54.75C76.9501 54.75 77.6168 54.0785 77.6168 53.25C77.6168 52.4216 76.9501 51.75 76.1273 51.75C75.3048 51.75 74.6381 52.4216 74.6381 53.25C74.6381 54.0785 75.3048 54.75 76.1273 54.75Z" fill="#5F82FF"/>
-                                            <ellipse cx="61.234" cy="62.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
-                                            <ellipse cx="67.1915" cy="68.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
-                                            <ellipse cx="76.1275" cy="70.5" rx="1.48936" ry="1.5" fill="#5F82FF"/>
-                                            <ellipse cx="85.0638" cy="68.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
-                                            <ellipse cx="90.2767" cy="62.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
-                                            <ellipse cx="92.5106" cy="53.25" rx="1.48936" ry="1.5" fill="#5F82FF"/>
-                                        </g>
-                                            <defs>
-                                            <filter id="filter0_dddd" x="0" y="0" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dy="10"/>
-                                            <feGaussianBlur stdDeviation="15"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0.894415 0 0 0 0 0.918495 0 0 0 0 0.984716 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                                            </filter>
-                                            </defs>
-                                    </g>
-                                
-                                    <circle cx="515.5" cy="389.5" r="7.5" fill="white"/>
-                                    <circle cx="515.5" cy="389.5" r="6.5" stroke="#5E80FE" stroke-width="2"/>
-                                </g>
-                               
                                 <defs>
-                                <filter id="filter0_d" x="902" y="226" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter0_d" x="1310" y="112" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset/>
@@ -162,7 +212,16 @@
                                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                                 </filter>
-                                <filter id="filter1_d" x="1310" y="112" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <!-- <filter id="filter1_d" x="1256" y="25" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="10"/>
+                                <feGaussianBlur stdDeviation="15"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.894415 0 0 0 0 0.918495 0 0 0 0 0.984716 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter> -->
+                                <filter id="filter2_d" x="902" y="226" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset/>
@@ -171,7 +230,16 @@
                                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                                 </filter>
-                                <filter id="filter2_d" x="85" y="397" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter3_d" x="849" y="139" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="10"/>
+                                <feGaussianBlur stdDeviation="15"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.894415 0 0 0 0 0.918495 0 0 0 0 0.984716 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                                <filter id="filter4_d" x="493" y="367" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset/>
@@ -180,7 +248,16 @@
                                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                                 </filter>
-                                <filter id="filter3_d" x="493" y="367" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter5_d" x="440" y="280" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="10"/>
+                                <feGaussianBlur stdDeviation="15"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.894415 0 0 0 0 0.918495 0 0 0 0 0.984716 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                                <filter id="filter6_d" x="85" y="397" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset/>
@@ -189,7 +266,7 @@
                                 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
                                 </filter>
-                                <filter id="filter4_d" x="440" y="280" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter7_d" x="32" y="310" width="152" height="127.911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset dy="10"/>
@@ -205,28 +282,12 @@
                                 </defs>
                                 </svg>
 
-        <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-            <ol class="diagram__indicators carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="diagram__item carousel-item active">
-                    <div class="row  text-center">
-                        <div class="col d-flex flex-column">
-                            <h3 class="diagram__subtitle">PLAN YOUR LIFE</h3>
-                            <h2 class="diagram__title">Increase your <span class="diagram__span">productivity</span> </h2>
-                            <p class="diagram__text text-center mx-auto">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
-                            <button class="diagram__row-center">
-                                <img src="./assets/images/diagram/Polygon.svg" alt="row">
-                            </button>
+
 
                         </div>
                     </div>
+
                 </div>
-
-
 
                 <div class="diagram__item carousel-item">
                     <div class="row  text-center diagram__wrapper">
@@ -249,7 +310,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="diagram__item carousel-item">
                     <div class="row  text-center diagram__wrapper">

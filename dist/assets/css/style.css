@@ -496,6 +496,10 @@ template {
     margin-bottom: 28px;
 }
 
+.diagram__wrap {
+    position: static;
+}
+
 .diagram__span {
     font-size: 48px;
     font-weight: 500;
@@ -519,29 +523,28 @@ template {
 
 .diagram__main {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    left: 15px;
+    top: 15px;
 }
 
-.diagram__icon {
-    position: absolute;
-    left: 49px;
-    bottom: 129px;
-    opacity: 0;
-    transition: all .2s ease;
-}
-
-.diagram__hover {
-    opacity: 0;
-}
-
-.diagram__circle {
+.diagram__point {
     cursor: pointer;
 }
 
-.diagram__circle:hover .icon__hover {
+.diagram__baloon {
+    opacity: 0;
+}
+
+.diagram__point:hover + .diagram__baloon {
     opacity: 1;
-    transition: all .2s ease;
+}
+
+.diagram__baloon-first {
+    opacity: 0;
+}
+
+.diagram__point:hover + .diagram__baloon-first {
+    opacity: 1;
 }
 
 .menu {
