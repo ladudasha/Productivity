@@ -48,19 +48,23 @@
         left: 0;
         bottom: 0;
     }
-    &__point {
+    &__point1,
+    &__point2,
+    &__point3 {
         cursor: pointer;
     }
-    &__baloon {
+    &__baloon1,
+    &__baloon2,
+    &__baloon3,
+    &__baloon4,
+    &__baloon4 {
         opacity: 0;
     }
-    &__point:hover+&__baloon {
+    &__point1:hover+&__baloon1,
+    &__point2:hover+&__baloon2,
+    &__point3:hover+&__baloon3,
+    &__point4:hover+&__baloon4 {
         opacity: 1;
-    }
-    &__baloon-first {
-        opacity: 0;
-    }
-    &__point:hover+&__baloon-first {
-        opacity: 1;
+        transition: 0.7ms;
     }
 }

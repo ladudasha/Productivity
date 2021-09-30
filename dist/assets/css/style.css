@@ -523,27 +523,22 @@ template {
 
 .diagram__main {
     position: absolute;
-    left: 15px;
-    top: 15px;
+    left: 0;
+    bottom: 0;
 }
 
 .diagram__point {
     cursor: pointer;
 }
 
-.diagram__baloon {
+.diagram__baloon1, .diagram__baloon2, .diagram__baloon3, .diagram__baloon4 {
     opacity: 0;
 }
 
-.diagram__point:hover + .diagram__baloon {
-    opacity: 1;
-}
-
-.diagram__baloon-first {
-    opacity: 0;
-}
-
-.diagram__point:hover + .diagram__baloon-first {
+.diagram__point:hover + .diagram__baloon1,
+  .diagram__point:hover + .diagram__baloon2,
+  .diagram__point:hover + .diagram__baloon3,
+  .diagram__point:hover + .diagram__baloon4 {
     opacity: 1;
 }
 
