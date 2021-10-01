@@ -527,7 +527,7 @@ template {
     bottom: 0;
 }
 
-.diagram__point {
+.diagram__point1, .diagram__point2, .diagram__point3, .diagram__point4 {
     cursor: pointer;
 }
 
@@ -535,11 +535,12 @@ template {
     opacity: 0;
 }
 
-.diagram__point:hover + .diagram__baloon1,
-  .diagram__point:hover + .diagram__baloon2,
-  .diagram__point:hover + .diagram__baloon3,
-  .diagram__point:hover + .diagram__baloon4 {
+.diagram__point1:hover + .diagram__baloon1,
+  .diagram__point2:hover + .diagram__baloon2,
+  .diagram__point3:hover + .diagram__baloon3,
+  .diagram__point4:hover + .diagram__baloon4 {
     opacity: 1;
+    transition: 700ms;
 }
 
 .menu {
@@ -736,7 +737,7 @@ template {
     margin-bottom: 20px;
 }
 
-.blog__grid {
+.blog__wrapper {
     padding: 63px 41px 64px 35px;
     max-width: 958px;
     width: 100%;
@@ -753,7 +754,7 @@ template {
 }
 
 @media screen and (max-width: 1220px) {
-    .blog__grid {
+    .blog__wrapper {
         -ms-flex-pack: center;
         justify-content: center;
     }
@@ -783,6 +784,20 @@ template {
     right: -95px;
 }
 
+.blog__grid {
+    display: grid;
+    grid-template-columns: 270px 127px;
+    grid-template-rows: 127px 127px;
+    gap: 11px;
+    row-gap: 13px;
+}
+
+.blog__box {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 13px;
+}
+
 .blog-img {
     -o-object-fit: cover;
     object-fit: cover;
@@ -797,14 +812,6 @@ template {
 .blog-img--sm {
     width: 127px;
     height: 126px;
-}
-
-.blog-img--sm:first-child {
-    margin-bottom: 14px;
-}
-
-.blog-pic {
-    margin-right: 13px;
 }
 
 .blog__content {
