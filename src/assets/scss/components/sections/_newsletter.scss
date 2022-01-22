@@ -6,17 +6,30 @@
         @include text (18px, 700, 22px, #3D4F9F);
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 18px;
+        @media screen and (max-width: 1028px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 18px;
+        }
     }
     &__text {
         font-family: 'Roboto', sans-serif;
         @include text (14px, 400, 27px, #8D96BD);
         letter-spacing: 0.03em;
         width: 330px;
+        @media screen and (max-width: 1028px) {
+            font-size: 17px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 14px;
+        }
     }
     &__content {
         margin-right: 80px;
         @media screen and (max-width: 1028px) {
             margin-right: 0;
+            margin-bottom: 40px;
         }
     }
     &__mail {

@@ -7,12 +7,18 @@
         @include text (10px, 500, 12px, #FFFFFF);
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        margin-bottom: 16px;
+        margin-bottom: 16px; @media screen and (max-width: 1028px) {
+            font-size: 13px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 10px;
+        }
     }
     &__title {
         @include text (48px, 300, 60px, #FFFFFF);
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 28px;
+
     }
     &__span {
         @include text (48px, 500, 60px, #FFFFFF);
@@ -25,6 +31,12 @@
         max-width: 712px;
         text-align: center;
         margin-bottom: 28px;
+        @media screen and (max-width: 1028px) {
+            font-size: 18px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 15px;
+        }
     }
     &__btn {
         height: 43px;

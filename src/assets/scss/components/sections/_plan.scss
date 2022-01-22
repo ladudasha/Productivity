@@ -1,6 +1,11 @@
 .plan {
     padding-top: 210px;
     padding-bottom: 240px;
+    @media screen and (max-width: 978px) {
+        padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    
     background-color: #F5F8FF;
     &__content {
         @media screen and (max-width: 1220px) {

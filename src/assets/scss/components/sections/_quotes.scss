@@ -59,7 +59,7 @@
         background: #FFFFFF;
         border: 1px solid #D8E3FE;
         position: relative; @media screen and (max-width: 1028px) {
-            padding: 35px 55px 33px 67px;
+            padding: 35px 55px 40px 67px;
         }
         @media screen and (max-width: 435px) {
             padding: 20px 30px 20px 29px;
@@ -67,6 +67,7 @@
     }
     &__review {
         max-width: 283px;
+        margin: 0 auto;
         font-family: 'Roboto', sans-serif;
         @include text (14px, 400, 24px, #676F95);
         letter-spacing: 0.03em;

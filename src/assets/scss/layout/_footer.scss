@@ -1,6 +1,6 @@
 .footer {
     padding-top: 80px;
-    padding-bottom: 93px;
+    padding-bottom: 50px;
     &__container {
         max-width: 1255px !important;
     }
@@ -11,5 +11,15 @@
         // text-transform: capitalize;
         margin-top: 28px;
         margin-left: 115px;
+        @media screen and (max-width: 576px) {
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+    &__container {
+        @media screen and (max-width: 990px) {
+            display: flex;
+            align-items: center;
+        }
     }
 }

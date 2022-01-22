@@ -1,8 +1,9 @@
 .faq {
     padding-top: 176px;
     padding-bottom: 155px;
-    &__wrapper {
-        // max-width: 730px;
+    @media screen and (max-width: 978px) {
+        padding-top: 80px;
+    padding-bottom: 90px;
     }
     &__accordion {
         max-width: 730px;
@@ -13,6 +14,12 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         margin-bottom: 20px;
+        @media screen and (max-width: 1028px) {
+            font-size: 13px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 10px;
+        }
     }
     &__title {
         @include text (24px, 500, 30px, #3D4F9F);
@@ -49,7 +56,7 @@
         }
     }
     &__card-body {
-        padding: 0px 0 50px 50px;
+        padding: 50px 0 50px 50px;
     }
     &__btn-body {
         background-color: #E8ECF4;
