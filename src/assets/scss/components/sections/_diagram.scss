@@ -19,6 +19,12 @@
         @include text (10px, 500, 12px, #3D4F9F);
         letter-spacing: 0.1em;
         margin-bottom: 16px;
+        @media screen and (max-width: 1028px) {
+            font-size: 15px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 12px;
+        }
     }
     &__title {
         @include text (48px, 300, 60px, #3D4F9F);
@@ -34,6 +40,12 @@
     }
     &__text {
         max-width: 502px;
+        @media screen and (max-width: 1028px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 15px;
+        }
     }
     &__row-center {
         background: #FFFFFF;
