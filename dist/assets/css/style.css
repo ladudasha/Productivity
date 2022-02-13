@@ -526,13 +526,14 @@ template {
 
 @media screen and (max-width: 1028px) {
     .diagram__text {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .diagram__text {
         font-size: 15px;
+        max-width: 400px;
     }
 }
 
@@ -584,6 +585,13 @@ template {
     margin-right: 10px;
 }
 
+@media screen and (max-width: 490px) {
+    .customers {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
 .customers-wrapper {
     min-height: 145px;
     max-width: 945px;
@@ -603,6 +611,13 @@ template {
     padding-top: 185px;
     padding-bottom: 185px;
     background: url(../images/features/clouds.svg) no-repeat center;
+}
+
+@media screen and (max-width: 1024px) {
+    .features {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -753,6 +768,13 @@ template {
     right: 30px;
     top: 9px;
     border: 1px solid #DAE4FE;
+}
+
+@media screen and (max-width: 490px) {
+    .customers {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 .customers-wrapper {
@@ -1054,6 +1076,13 @@ template {
     background-color: #F5F8FF;
 }
 
+@media screen and (max-width: 978px) {
+    .plan {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
 @media screen and (max-width: 1220px) {
     .plan__content {
         margin: o auto;
@@ -1173,6 +1202,18 @@ template {
     margin-bottom: 16px;
 }
 
+@media screen and (max-width: 1028px) {
+    .started__subtitle {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .started__subtitle {
+        font-size: 10px;
+    }
+}
+
 .started__title {
     font-size: 48px;
     font-weight: 300;
@@ -1200,6 +1241,18 @@ template {
     max-width: 712px;
     text-align: center;
     margin-bottom: 28px;
+}
+
+@media screen and (max-width: 1028px) {
+    .started__text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .started__text {
+        font-size: 15px;
+    }
 }
 
 .started__btn {
@@ -1244,6 +1297,18 @@ template {
     margin-bottom: 18px;
 }
 
+@media screen and (max-width: 1028px) {
+    .newsletter__title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .newsletter__title {
+        font-size: 18px;
+    }
+}
+
 .newsletter__text {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -1254,6 +1319,18 @@ template {
     width: 330px;
 }
 
+@media screen and (max-width: 1028px) {
+    .newsletter__text {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .newsletter__text {
+        font-size: 14px;
+    }
+}
+
 .newsletter__content {
     margin-right: 80px;
 }
@@ -1261,6 +1338,7 @@ template {
 @media screen and (max-width: 1028px) {
     .newsletter__content {
         margin-right: 0;
+        margin-bottom: 40px;
     }
 }
 
@@ -1292,7 +1370,7 @@ template {
 
 .footer {
     padding-top: 80px;
-    padding-bottom: 93px;
+    padding-bottom: 50px;
 }
 
 .footer__container {
@@ -1308,6 +1386,22 @@ template {
     letter-spacing: 0.05em;
     margin-top: 28px;
     margin-left: 115px;
+}
+
+@media screen and (max-width: 576px) {
+    .footer__row {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .footer__container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 }
 
 .stats__col {
@@ -1468,7 +1562,7 @@ template {
 
 @media screen and (max-width: 1028px) {
     .quotes__wrapper {
-        padding: 35px 55px 33px 67px;
+        padding: 35px 55px 40px 67px;
     }
 }
 
@@ -1480,6 +1574,7 @@ template {
 
 .quotes__review {
     max-width: 283px;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -1515,6 +1610,13 @@ template {
 .faq {
     padding-top: 176px;
     padding-bottom: 155px;
+}
+
+@media screen and (max-width: 978px) {
+    .faq {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
 }
 
 .faq__accordion {
@@ -1593,7 +1695,7 @@ template {
 }
 
 .faq__card-body {
-    padding: 0px 0 50px 50px;
+    padding: 50px 0 50px 50px;
 }
 
 .faq__btn-body {
